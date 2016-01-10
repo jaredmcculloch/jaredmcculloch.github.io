@@ -185,7 +185,7 @@ aside {
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
 .embed-container iframe, 
 .embed-container object, 
-.embed-container embed { position: absolute; bottom: 0; width: 75%; height: 75%; margin-left: 10%; margin-right: 10%; margin-top: -30px; margin-bottom: 0; }
+.embed-container embed { position: absolute; bottom: 0; width: 99%; height: 99%; margin-left: 0.5%; margin-right: 0.5%; margin-top:0px; margin-bottom: 0; }
 
 iframe {
     border: 2px white solid;
