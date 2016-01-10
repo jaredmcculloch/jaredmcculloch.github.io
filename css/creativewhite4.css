@@ -88,7 +88,7 @@ p {
 
 
 section {
-    padding: 100px 0;
+    padding: auto;
 }
 
 aside {
@@ -185,7 +185,7 @@ aside {
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
 .embed-container iframe, 
 .embed-container object, 
-.embed-container embed { position: absolute; bottom: 0; width: 100%; height: 100%; }
+.embed-container embed { position: absolute; bottom: 0; width: 100%; height: 100%; margin: 0 auto 0; }
 
 iframe {
     border: 2px white solid;
@@ -257,7 +257,7 @@ iframe {
     .dark .border { background: #000000; }
     #circle {
         margin-top: 30px;
-        background: #899d8c;
+        background: url('/img/sage.jpg');
         width: 344px;
         height: 344px;
         border-radius: 50%;
@@ -270,7 +270,7 @@ iframe {
     width: 100%;
     height: 0;
     padding-bottom: 100%;
-    background: #899d8c;
+    background: url('/img/sage.jpg');
     border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -287,18 +287,19 @@ iframe {
         color: #19261a !important;
     }
     .ht-package {
-        font-size: 1em;
+        font-size: 0.7em;
         line-height: 0.7em;
     }
     .ht-package-name {
         line-height: 1.2em;
-        font-size: 1em;
-        font-family: 'wisdom_scriptregular', serif;
+        font-size: 1.4em;
+        font-family: 'Bauer Bodoni Std Italic';
     }
     .ht-package-price {
-        font-size: 3.8em;
+        font-size: 0.7em;
         line-height: 1.3em;
     }
+
     #investment-2 .circle-content {
         padding: 25% 0% 0% 0%
     }
@@ -435,7 +436,7 @@ header .header-content .header-content-inner p {
 .package-line p {
     margin-bottom:5px;
     padding-left: 15%;
-    font-size:0.85em;
+    font-size:0.75em;
 }
 
 .ht-icon {
@@ -480,7 +481,7 @@ header .header-content .header-content-inner p {
 
 @media only screen and (min-width:1200px) {
     .ht-package-name {
-        font-size: 2em;
+        font-size: 1.4em;
     }
     .ht-package-includes {
         width: 1200px;
@@ -495,10 +496,19 @@ header .header-content .header-content-inner p {
     }
 }
 
+.project-name {
+    font-family: 'Bauer Bodoni Std Italic';
+}
+
+.project-category {
+    font-family: 'Futura Medium';
+}
+
+
 .video-portfolio-box {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 5px;
     padding: 1px;
     max-width: 650px;
 }
@@ -508,6 +518,7 @@ header .header-content .header-content-inner p {
     bottom: 0;
     width: 100%;
     height: 100%;
+    padding:6px;
     text-align: center;
     color: #fff;
     opacity: 0;
@@ -523,6 +534,7 @@ header .header-content .header-content-inner p {
     bottom: 0;
     width: 100%;
     height: 100%;
+    padding:6px;
     text-align: center;
     color: #fff;
     opacity:2;
@@ -538,6 +550,7 @@ header .header-content .header-content-inner p {
     bottom: 0;
     width: 100%;
     height: 100%;
+    padding: 6px;
     text-align: center;
     color: #fff;
     opacity:2;
@@ -562,14 +575,13 @@ header .header-content .header-content-inner p {
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category,
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-ent .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Futura Medium';
 }
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
@@ -599,7 +611,7 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    padding: 1px;
+    padding: 5px;
     max-width: 650px;
 
 }
@@ -614,9 +626,10 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+    bottom: 5px;
+    width: 98%;
+    height: 97%;
+    padding:6px;
     text-align: center;
     color: #fff;
     opacity:0;
@@ -629,9 +642,9 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption-full {
     display: block;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+    bottom: 5px;
+    width: 98%;
+    height: 97%;
     text-align: center;
     color: #fff;
     opacity:2;
@@ -662,14 +675,13 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-ent .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Futura Medium';
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
@@ -760,7 +772,7 @@ header .header-content .header-content-inner p {
     .dark .border { background: #000000; }
     #circle {
         margin-top: 10px;
-        background: #899d8c;
+        background: url('/img/sage.jpg');
         width: 344px;
         height: 344px;
         border-radius: 50%;
@@ -773,7 +785,7 @@ header .header-content .header-content-inner p {
     width: 100%;
     height: 0;
     padding-bottom: 100%;
-    background: #899d8c;
+    background: url('/img/sage.jpg');
     border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -782,7 +794,7 @@ header .header-content .header-content-inner p {
     .circle-content {
         float: left;
         font-size: 100%;
-        font-family: 'Playball';
+        font-family: 'Bauer Bodoni Std Italic';
         width: 100%;
         font-weight: normal;
         padding: 25% 12% 0;
@@ -792,16 +804,16 @@ header .header-content .header-content-inner p {
         color: #19261a !important;
     }
     .ht-package {
-        font-size: 1.0em;
+        font-size: 0.7em;
         line-height: 1.0em;
     }
     .ht-package-name {
         line-height: 1.4em;
-        font-size: 1.6em;
-        font-family: 'Playball';
+        font-size: 1.4em;
+        font-family: 'Bauer Bodoni Std Italic';
     }
     .ht-package-price {
-        font-size: 1.5em;
+        font-size: 0.7em;
         line-height: 1.8em;
     }
     #investment-2 .circle-content {
@@ -825,7 +837,7 @@ header .header-content .header-content-inner p {
     .row-fluid:after { clear:both; }
     .row-fluid { zoom:1; }
     .parallax { background-size: cover; background-attachment: scroll; background-position: top center!important;
-    width: 99.9%; margin-top:1px;
+    width: 100%; margin-top:1px;
     background-attachment: fixed;}
 
 
@@ -968,7 +980,7 @@ body {
     .dark .border { background: #000000; }
     #circle {
         margin-top: 10px;
-        background: #899d8c;
+        background: url('/img/sage.jpg');
         width: 344px;
         height: 344px;
         border-radius: 50%;
@@ -981,7 +993,7 @@ body {
     width: 100%;
     height: 0;
     padding-bottom: 100%;
-    background: #899d8c;
+    background: url('/img/sage.jpg');
     border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -999,16 +1011,16 @@ body {
         color: #19261a !important;
     }
     .ht-package {
-        font-size: 1.0em;
+        font-size: 0.7em;
         line-height: 1.5em;
     }
     .ht-package-name {
-        line-height: 1.4em;
-        font-size: 2.4em;
-        font-family: 'Playball';
+        line-height: 1.0em;
+        font-size: 1.4em;
+        font-family: 'Bauer Bodoni Std Italic';
     }
     .ht-package-price {
-        font-size: 1.5em;
+        font-size: 0.7em;
         line-height: 1.8em;
     }
     #investment-2 .circle-content {
@@ -1032,7 +1044,7 @@ body {
     .row-fluid:after { clear:both; }
     .row-fluid { zoom:1; }
     .parallax { background-size: cover; background-attachment: scroll; background-position: top center!important;
-    width: 99.9%; margin-top:1px;
+    width: 100%; margin-top:1px;
     background-attachment: fixed;}
 
 ;}
@@ -1054,7 +1066,7 @@ body {
     .dark .border { background: #000000; }
     #circle {
         margin-top: 10px;
-        background: #899d8c;
+        background: url('/img/sage.jpg');
         width: 344px;
         height: 344px;
         border-radius: 50%;
@@ -1067,7 +1079,7 @@ body {
     width: 100%;
     height: 0;
     padding-bottom: 100%;
-    background: #899d8c;
+    background: url('/img/sage.jpg');
     border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -1085,16 +1097,16 @@ body {
         color: #19261a !important;
     }
     .ht-package {
-        font-size: 1.0em;
+        font-size: 0.7em;
         line-height: 1.5em;
     }
     .ht-package-name {
         line-height: 1.2em;
-        font-size: 1.8em;
-        font-family: 'Playball';
+        font-size: 1.4em;
+        font-family: 'Bauer Bodoni Std Italic';
     }
     .ht-package-price {
-        font-size: 1.5em;
+        font-size: 0.7em;
         line-height: 1.8em;
     }
     #investment-2 .circle-content {
@@ -1118,7 +1130,7 @@ body {
     .row-fluid:after { clear:both; }
     .row-fluid { zoom:1; }
     .parallax { background-size: cover; background-attachment: scroll; background-position: top center!important;
-    width: 99.9%; margin-top:1px;
+    width: 100%; margin-top:1px;
     background-attachment: fixed;}
 
 ;}
@@ -1140,7 +1152,7 @@ body {
     .dark .border { background: #000000; }
     #circle {
         margin-top: 10px;
-        background: #899d8c;
+        background: url('/img/sage.jpg');
         width: 344px;
         height: 344px;
         border-radius: 50%;
@@ -1153,7 +1165,7 @@ body {
     width: 100%;
     height: 0;
     padding-bottom: 100%;
-    background: #899d8c;
+    background: url('/img/sage.jpg');
     border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -1171,16 +1183,16 @@ body {
         color: #19261a !important;
     }
     .ht-package {
-        font-size: 1.0em;
+        font-size: 0.7em;
         line-height: 1.5em;
     }
     .ht-package-name {
-        line-height: 1.2em;
-        font-size: 1.5em;
-        font-family: 'Playball';
+        line-height: 2.0em;
+        font-size: 1.4em;
+        font-family: 'Bauer Bodoni Std Italic';
     }
     .ht-package-price {
-        font-size: 2.0em;
+        font-size: 0.7em;
         line-height: 1.8em;
     }
     #investment-2 .circle-content {
@@ -1204,7 +1216,7 @@ body {
     .row-fluid:after { clear:both; }
     .row-fluid { zoom:1; }
     .parallax { background-size: cover; background-attachment: scroll; background-position: top center!important;
-    width: 99.9%; margin-top:1px;
+    width: 100%; margin-top:1px;
     background-attachment: fixed;}
 
 ;}
