@@ -580,8 +580,8 @@ header .header-content .header-content-inner p {
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
-    font-size: 14px;
-    font-weight: 100;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
@@ -597,12 +597,12 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
     .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name
     .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
@@ -681,7 +681,8 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
     font-size: 14px;
-    font-weight: 100;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
@@ -697,12 +698,12 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
     .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
     .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
