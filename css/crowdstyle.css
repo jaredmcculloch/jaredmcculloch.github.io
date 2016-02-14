@@ -848,7 +848,7 @@ textarea {
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
   background-color: white;
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
   border: 1px solid #dfdfdf;
   box-shadow: none;
   color: #3f3f3f;
@@ -3560,7 +3560,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
   font-weight: normal;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -5438,18 +5438,6 @@ p:empty {
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'TrajanPro-Regular';
-  src: url("../fonts/trajan-pro/TrajanPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/trajan-pro/TrajanPro-Regular.otf") format("opentype"), url("../fonts/trajan-pro/TrajanPro-Regular.svg#TrajanPro-Regular") format("svg"), url("../fonts/trajan-pro/TrajanPro-Regular.woff") format("woff"), url("../fonts/trajan-pro/TrajanPro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'TrajanPro-Bold';
-  src: url("TrajanPro-Bold.eot?#iefix") format("embedded-opentype"), url("TrajanPro-Bold.ttf") format("truetype"), url("TrajanPro-Bold.svg#TrajanPro-Bold") format("svg"), url("TrajanPro-Bold.otf") format("opentype"), url("TrajanPro-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 /*
    1. GENERAL STYLES
 ------------------------------------------- */
@@ -5586,7 +5574,7 @@ h4 a:hover, h5 a:hover, h6 a:hover {
 .social-text {
   font-size: 10px;
   text-transform: uppercase;
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
 }
 
 /* line 168, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -5758,7 +5746,7 @@ button {
   padding-top: 12px;
   padding-bottom: 10px;
   font-size: 10px;
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -6239,7 +6227,7 @@ button {
   right: 0;
   margin: 10px;
   z-index: 1;
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
   font-size: 15px;
   letter-spacing: 0.05em;
   text-align: center;
@@ -8140,7 +8128,7 @@ a.mosaic-content:hover img {
   padding-top: 12px;
   padding-bottom: 10px;
   font-size: 10px !important;
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
   width: 100%;
   cursor: pointer;
   -webkit-appearance: none;
@@ -8325,7 +8313,7 @@ a.mosaic-content:hover img {
 
 /* line 3061, style.scss */
 .contact-phone p {
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
 }
 
 /* line 3068, style.scss */
@@ -10757,7 +10745,7 @@ a.mosaic-content:hover img {
 /* END STYLES BY SLIVA*/
 /* line 6187, style.scss */
 .mosaic-title {
-  font-family: "TrajanPro-Regular", Georgia, serif;
+  font-family: "Bauer Bodoni Std Italic", Georgia, serif;
   font-size: 20px;
   margin-bottom: 6px;
 }

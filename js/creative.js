@@ -10,8 +10,9 @@
     
    //Fancybox  
         //use portfolio-box for pics
+            //switch back to portfolio-box to have it be fancybox popup
     $(document).ready(function() {
-        $('.portfolio-box').fancybox({
+        $('.portfolio-box2').fancybox({
         padding: 0,
         helpers: {
         overlay: {
@@ -67,14 +68,24 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
-
+//Scrolling to anchor. the 1500 refers to length of time to scroll. Increase to slow down. The 150 refers to the offset. Increase to offset higher.
+    var $root = $('html, body');
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top-143
+    }, 1500);
+    return false;
+});
 
 //Closing Function -- put all scripts above here
 });
 
 
 
-
 })(jQuery); // End of use strict
+
+
+
+
 
 

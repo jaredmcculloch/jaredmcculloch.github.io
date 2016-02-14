@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+
+       <title>JUSTIN+AJASMINE | Sage &amp; Sea</title>
+
+
+
+<!--CSS links-->
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creativewhite4.css" type="text/css">
+    <!--FancyBox-->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+    <!--Hover Effects-->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <!--Other Styles-->
+    <link rel='stylesheet' id='cosmo-shortcodes-css'  href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jar_instagram_fontello-css'  href='css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jar_instagram_frontend__stylesheet-css'  href='css/jarinstastyle.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jar_instagram_fancybox-css'  href='css/jquery.fancybox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jarroyal-css'  href='css/royalslider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='fancybox-css'  href='css/jquery.fancybox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='mediaelement-css'  href='css/mediaelementplayer.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='mejs-skins-css'  href='css/mejs-skins.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme_stylesheet-css'  href='css/crowdstyle.css' type='text/css' media='all' />
+        <!-- this is for the arrow on the slideshow at top?? -->
+    <link rel='stylesheet' id='default_stylesheet-css'  href='//benjhaisch.com/wp-content/themes/crowd-child/style.css?ver=4.4.1' type='text/css' media='all' />
+
+
+<!-- jQuery links -->
+    <script src="js/jquery.js"></script>
+    <script src="js/creative.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--FancyBox-->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+            <!-- Optional, Add mousewheel effect -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!-- Other -->
+    <script type='text/javascript' src='js/jquery-migrate.min.js'></script> 
+    
+
+<!--Styles-->
+    <!-- HT styles -->
+    <style type="text/css">
+    .icon-circle {
+    border: 3px solid #fc8151;
+    }
+    .parallax.colored{background-color:#a0ddcb;}.list-dot{background-color:#a0ddcb;}.projectlist a:hover .projectinfo{background-color:#a0ddcb;}a.button{border-color:#a0ddcb;}.tagcloud a{border-color:#a0ddcb;}.tabs ul li.active a{border-top-color:#a0ddcb;}a:hover{color:#a0ddcb;}.sticky .post-title a:hover{color:#a0ddcb;}a.button:hover{border-color:#a0ddcb;}.tagcloud a:hover{border-color:#a0ddcb;}</style><style type="text/css">a:hover, div.projectinfo {
+    opacity:0.9;
+    }
+    </style>
+
+    <script type="text/javascript">
+        document.createElement('video');
+        document.createElement('audio');
+        document.createElement('track');
+    </script>
+
+    <style type="text/css">                 
+    @font-face {
+    font-family: 'Futura Medium';
+    font-style: normal;
+    src: local('Futura Medium'),  url(fonts/futura-pt.ttf ) format('truetype'), url(fonts/futura-pt.otf ) format('opentype');
+    }
+    @font-face {
+    font-family: 'FuturaStd-Book';
+    font-style: normal;
+    src: local('FuturaStd-Book'),  url(fonts/futurastd-book.ttf ) format('truetype'), url(fonts/futurastd-book.woff ) format('woff'), url(fonts/futurastd-book.svg ) format('svg');
+    }
+    @font-face {
+    font-family: 'Bauer Bodoni Std Italic';
+    font-style: normal;
+    src: local('Bauer Bodoni Std Italic'),  url(fonts/bauerbodonistd-italic.otf ) format('opentype'), url(fonts/bauerbodonistd-italic.ttf ) format('truetype');
+    }
+    </style>    
+    
+
+        
+    <style>      
+    .crowd-full{
+        height: 400px;
+    }
+                        @media only screen and (max-width: 640px) {
+        .crowd-full .main-slideshow .royalSlider {
+            height: 100% !important;
+        }
+        .crowd-full .main-slideshow .royalSlider > div {
+            height: 100% !important;
+        }
+    } 
+
+    @media only screen and (min-width: 641px) {
+        .crowd-full-width .crowd-push, .crowd-full-width .crowd-full{
+            height: 1200px;
+        }
+                            .crowd-nearby-slider .rsSlide{
+                padding: 0 2px;
+            }
+        
+                                .main-slideshow .jar-slick-slider{
+                    height: 500px;
+                }  
+    }
+    </style>
+            
+
+    <style type="text/css">
+        .vfb-item input[type="submit"], button, input[type="button"]{
+            margin: 0px;
+        }
+        .vfb-error{
+            color: red;
+        }
+
+        .visual-form-builder .vfb-legend {
+            border-bottom: 0px;
+        }
+        @media only screen and (max-width: 600px) {
+            .visual-form-builder li.vfb-right-half, .visual-form-builder li.vfb-right-third, .visual-form-builder li.vfb-right-two-thirds{
+                float: none;
+            }
+
+            .visual-form-builder li.vfb-left-half, .visual-form-builder li.vfb-right-half,
+            .visual-form-builder li.vfb-left-third, .visual-form-builder li.vfb-middle-third, .visual-form-builder li.vfb-right-third,
+            .visual-form-builder li.vfb-left-two-thirds, .visual-form-builder li.vfb-right-two-thirds
+            {
+                width: 90% !important;
+            }
+        }
+
+            
+    </style>
+
+
+    <!--Custom CSS-->
+    <style type="text/css">
+    .crowd-layout .site-header{
+    padding: 0;
+    }
+    /*==============Categories pages================*/
+    .category .post-preview {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+    .post-article p {
+    margin-bottom: 15px;
+    }
+
+    .post-header .post-meta .post-decoration {
+    max-width: 100px;
+    }
+
+    /*==============Navigation=============*/
+    .primary-navigation ul li ul, .crowd-full-screen .children {
+    width: 165px;
+    }
+
+    @media only screen and (min-width: 40.063em){
+    .primary-navigation li {
+    text-align: center;
+    }
+    .primary-navigation, nav#primary-navigation ul {
+    background-color: transparent;
+    }
+    nav#primary-navigation ul .children {
+    background-color: white;
+    }
+    }
+
+    .footer-full-scren-width-area .jar-instagram_widget .widget-title .below-title-inst {
+    font-family: "Bauer Bodoni Std Italic";
+    text-transform: lowercase;
+    font-size:13px;
+    font-style:normal;
+    padding-top: 8px;
+    }
+
+    .footer-full-scren-width-area .jar-instagram_widget .widget-title {
+    font-size: 14px;
+    text-transform:uppercase;
+    }
+
+    .site-logo .logo img {
+    width: 100%;
+    }       
+    </style>
+
+    <style type="text/css">
+                        #gallery-slider .royalSlider, #full-width-slider .bx-wrapper{
+                max-height: 580px;
+            }
+
+            .gallery-slider .jar-slick-slider{
+                height: 580px;
+            }
+
+    
+    
+                        .jar-slick-slider .slick-slide{
+                padding: 0px 8px;
+            }
+                                .main-slideshow .jar-slick-slider .slick-slide{
+                padding: 0px 2px;
+            }
+                    
+            @media only screen and (max-width: 640px) {
+             
+
+                #gallery-slider .royalSlider, #full-width-slider .bx-wrapper {
+                    max-height: 250px;
+                } 
+
+                .full-width-slider .bx-viewport {
+                    height: 250px !important;
+                }
+
+                .gallery-slider .jar-slick-slider {
+                    height: 250px;
+                }
+
+            }
+            
+     .primary-navigation .nav-menu a, .menu-one-column.logo-left .primary-navigation li a, .menu-one-column.logo-right .primary-navigation li a{  font-size:12px;  font-family: "Futura Medium" ;  font-weight:normal;  font-style:normal; }  .nav-menu li a > .menu-description{  font-size:13px;  font-family: "Bauer Bodoni Std Italic" ;  font-weight:normal;  font-style:normal; }  .menu-toggle i:before, .menu-toggle span{  font-size:22px;  font-weight:normal;  font-style:normal; }  .slide-content .post-title .slide-title{  font-size:21px;  font-weight:normal;  font-style:normal; }  .slide-content .post-title .post-title-after{  font-size:34px;  font-weight:normal;  font-style:normal; }  .site-logo h1.site-title a, .site-title, .nav-menu .site-title{  font-size:29px;  font-weight:normal;  font-style:normal; }  h1{  font-size:34px;  font-weight:normal;  font-style:normal; }  h2, h2.post-title{  font-size:14px;  font-family: "Futura Medium" ;  font-weight:normal;  font-style:normal; }  h3, h3.post-title{  font-size:14px;  font-family: "Futura Medium" ;  font-weight:normal;  font-style:normal; }  h4{  font-size:12px;  font-family: "Futura Medium" ;  font-weight:normal;  font-style:normal; }  h5{  font-size:18px;  font-weight:normal;  font-style:normal; }  h6{  font-size:16px;  font-weight:normal;  font-style:normal; }  body, p, span, #content-sidebar ul li a, ul{  font-size:13px;  font-family: "FuturaStd-Book" ;  font-weight:normal;  font-style:normal; }  .post-title-before{  font-size:12px;  font-family: "FuturaStd-Book" ;  font-weight:normal;  font-style:normal; }  .post-title .post-title-after, .page-template-template-contact-form .contact-form p, .ninja-forms-all-fields-wrap .text-wrap label, .ninja-forms-all-fields-wrap .textarea-wrap label, .ninja-forms-form-wrap label{  font-size:13px;  font-family: "FuturaStd-Book" ;  font-weight:normal;  font-style:normal; }  .post-note, .post-comment, .post-tag-entry, .post-tag span, .post-tag a, .share-link, .comment-item, .social-text{  font-size:10px;  font-family: "FuturaStd-Book" ;  font-weight:normal;  font-style:normal; }  .post-date a .post-date, .post-category a, .post-date time, .post-category .category-item{  font-size:13px;  font-family: "Bauer Bodoni Std Italic" ;  font-weight:normal;  font-style:normal; }  .pagination span, .pagination a{  font-size:13px;  font-family: "Bauer Bodoni Std Italic" ;  font-weight:normal;  font-style:normal; }  input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"],input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="button"],input[type="submit"], textarea{  font-size:10px;  font-family: "Bauer Bodoni Std Italic" ;  font-weight:normal;  font-style:normal; }  .widget-title{  font-size:14px;  font-family: "Futura Medium" ;  font-weight:normal;  font-style:normal;  letter-spacing:0px; }  .button-title-link, .button-title-link span{  font-size:13px;  font-family: "Bauer Bodoni Std Italic" ;  font-weight:normal;  font-style:normal; }  .footer-bottom, .footer-bottom a, .footer-bottom span, .footer-bottom p, .footer-bottom div, .footer-bottom span{  font-size:10px;  font-family: "Futura Medium" ;  font-weight:normal;  font-style:normal;  letter-spacing:2px; }  .mosaic-description{  font-size:13px;  font-weight:normal;  font-style:normal; }  .mosaic-title{  font-size:20px;  font-weight:normal;  font-style:normal; } @media only screen and (max-width: 768px) { .primary-navigation .nav-menu a, .menu-one-column.logo-left .primary-navigation li a, .menu-one-column.logo-right .primary-navigation li a{  font-size:12px; }  .nav-menu li a > .menu-description{  font-size:13px; }  .menu-toggle i:before, .menu-toggle span{  font-size:22px; }  .slide-content .post-title .slide-title{  font-size:21px; }  .slide-content .post-title .post-title-after{  font-size:24px; }  .site-logo h1.site-title a, .site-title, .nav-menu .site-title{  font-size:29px; }  h1{  font-size:24px; }  h2, h2.post-title{  font-size:14px; }  h3, h3.post-title{  font-size:14px; }  h4{  font-size:12px; }  h5{  font-size:16px; }  h6{  font-size:14px; }  body, p, span, #content-sidebar ul li a, ul{  font-size:13px; }  .post-title-before{  font-size:12px; }  .post-title .post-title-after, .page-template-template-contact-form .contact-form p, .ninja-forms-all-fields-wrap .text-wrap label, .ninja-forms-all-fields-wrap .textarea-wrap label, .ninja-forms-form-wrap label{  font-size:13px; }  .post-note, .post-comment, .post-tag-entry, .post-tag span, .post-tag a, .share-link, .comment-item, .social-text{  font-size:10px; }  .post-date a .post-date, .post-category a, .post-date time, .post-category .category-item{  font-size:13px; }  .pagination span, .pagination a{  font-size:13px; }  input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"],input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="button"],input[type="submit"], textarea{  font-size:10px; }  .widget-title{  font-size:14px; }  .button-title-link, .button-title-link span{  font-size:13px; }  .footer-bottom, .footer-bottom a, .footer-bottom span, .footer-bottom p, .footer-bottom div, .footer-bottom span{  font-size:10px;  letter-spacing:2px; }  .mosaic-description{  font-size:13px; }  .mosaic-title{  font-size:20px; } }           .below-header-full-width{ margin-top: -28px; }.below-header-full-width{ margin-bottom: 0px; }
+        .row{ max-width: 1130px; }  /*max site content width*/
+
+                        .site-logo .logo img
+            {
+                max-width: 170px;
+            }
+
+                        @media only screen and (max-width: 600px)
+            {
+                .site-logo .logo img, .crowd-layout .site-header .logo img
+                {
+                    width: 150px;
+                }
+            }
+
+            
+                        .single div.post-content a img, body img.alignleft, body img.alignright, body img.aligncenter, body img.alignnone,
+            .gallery-shortcode.jar-1-columns 
+            {
+                margin-bottom: 14px;
+            }
+
+                                @media only screen and (min-width: 1230px){
+                        body:not(.crowd-layout).header_style1 .nav-menu>li:not(:last-child){
+                            margin-right: 126.5px                       }
+
+                        body.crowd-layout.crowd-simple-menu .site-header:not(.left-logo) .nav-menu>li:not(:last-child),
+                        body.crowd-layout.crowd-simple-menu .site-header:not(.right-logo) .nav-menu>li:not(:last-child),
+                        body.crowd-layout.crowd-simple-menu .site-header:not(.logo-inside-menu) .nav-menu>li:not(:last-child)
+                        {
+                            margin-right: 126.5px                       }
+
+                        body.crowd-layout.crowd-simple-menu .site-header.logo-inside-menu .nav-menu>li:last-child,
+                        body.crowd-layout.crowd-simple-menu .site-header.logo-inside-menu .nav-menu>li.right-logo-menu,
+                        body.crowd-layout.crowd-simple-menu .site-header.logo-inside-menu .nav-menu>li.site-logo,
+                        body.crowd-layout.crowd-simple-menu .site-header .nav-menu>li:last-child{
+                            margin-right: 0px !important;
+                        }
+                        /*body.crowd-layout.crowd-simple-menu .site-header.logo-inside-menu .nav-menu>li:not(:right-logo-menu)*/
+                    }
+            
+                @media only screen and (min-width: 641px) and (max-width: 1229px){
+                    .header_style4 .site-navigation .nav-menu>li{
+                        margin-right: 20px !important;
+                        margin-left: 0px !important;
+                    }
+                }
+
+                /* fix for the menu items distance if the screen width is smaller that the site content width */
+                @media only screen and (min-width: 641px) and (max-width: 1230px){
+                    .header_style1 .nav-menu>li:not(:last-child){
+                        margin-right: 15px !important;
+                    }
+                }
+            
+            @media only screen and (min-width: 1230px){
+                .primary-navigation > ul > li.site-logo, .primary-navigation > ul > li.right-logo-menu{
+                   margin-right: 0px;
+                }
+
+                .header_style4 .site-navigation .nav-menu>li.right-logo-menu{
+                    margin-right: 0px;
+                }
+                .header_style4 li.site-logo{ margin-right: 0px; }
+
+                
+                
+                /*fixing the menu allignement styles*/
+                                    .header_style1:not(.crowd-layout) .primary-navigation > ul > li,
+                    .crowd-simple-menu .primary-navigation > ul > li{
+                        margin-right: 125px!important;
+                    }
+                    .header_style1:not(.crowd-layout) .primary-navigation > ul > li:last-child,
+                    .crowd-simple-menu  .primary-navigation > ul > li:last-child{
+                        margin-right: 15px !important;
+                    }
+                
+                                            }
+
+                        @media only screen and (max-width: 640px)
+            {
+                /*header padding for mobiles*/
+                                    }
+            
+            @media only screen and (min-width: 641px)
+            {
+                /*header padding for mobiles*/
+                                header.site-header
+                        {
+                            padding-top: 0px;
+                        }
+                                                
+                                        header.site-header
+                    {
+                        padding-bottom: 0px;
+                    }
+                }
+        </style>
+                <style type="text/css">
+
+
+
+            .crowd-header-over .sticky-holder:not(.fixed) .primary-navigation .nav-menu>li>a{
+                color:#000000           }
+            .crowd-layout .sticky-holder:not(.fixed) .primary-navigation > ul > li > a:hover{
+                color:#000000           }
+
+            .primary-navigation ul li a:hover, .mobile-menu-inner ul li a:hover{
+                color:#000000           }
+            .primary-navigation > ul > li > a:hover, .mobile-menu-inner > ul > li > a:hover{
+                color:#000000           }
+            .primary-navigation ul li a, .mobile-menu-inner li a, .menu-toggle i:before, .menu-toggle span{
+                color:#000000           }
+            .primary-navigation ul li ul, .crowd-full-screen .children{
+                background: #ffffff         }
+            
+            
+
+            .site-header, body, .primary-navigation ul, .post-pagination .next-post .inner, .post-pagination .prev-post .inner,
+            .crowd-layout .site-main,.crowd-layout .site-footer{
+                background: #ffffff;
+            }
+            body, .post-title, .widget-title{
+                color: #000000;
+            }
+            .post-title .post-title-before{
+                color: #272727          }
+            .post-title .post-title-after{
+                color: #464646          }
+            .post-meta span a, .meta-wrap a, .meta-wrap:before, .pagination-wrapper .page-item, .pagination-wrapper .prev, .pagination-wrapper .next {
+                color: #3f3f3f          }
+            .widget_socialicons .social a,.content .social a{
+                color: #000;
+            }
+            .widget-title{
+                color: #000;    
+            }
+            .widget{
+                color: #000;        
+            }
+            
+            .footer-bottom{
+                background: #ffffff         }
+            .footer-bottom, .footer-bottom a{
+                color: #000000          }
+            a{
+                color: #cccccc          }
+            .layout-width:before, .single-layout-width:before{
+                border-top: 1px solid #e9e9e9;
+            }
+            .footer-top-inner{
+                border-top: 1px solid #e9e9e9;
+                border-bottom: 1px solid #e9e9e9;
+            }
+
+        </style>
+            <style type="text/css">
+
+                            .post-article .post-article-inner
+                {
+                    max-width: 700px;
+                }
+            
+            
+            @media screen and (min-width: 768px) {
+                .main-navigation .menu ul.children a{ font-size: -1px ; }
+            }
+        </style>
+            <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+
+<!--Scripts-->
+    <script>
+
+    jQuery(document).ready(function($) {
+
+        $(".page-scroll").click(function(event) {
+            event.preventDefault(); 
+
+            var defaultAnchorOffset = 0;
+            
+            var $anchor = $('#' + this.hash.substring(1));
+                    
+            var anchorOffset = $anchor.data('anchor-offset');
+            if (!anchorOffset) // for when anchor doesn't have the offset attribute like Section 4
+                anchorOffset = defaultAnchorOffset; 
+
+            $('html,body').animate({ 
+                scrollTop: $anchor.offset().top +2 - anchorOffset
+            }, 500);        
+        });
+    });
+
+
+    </script>
+
+
+</head>
+
+<body class="home page page-id-23929 page-template page-template-templates page-template-template-blog page-template-templatestemplate-blog-php  header_style2 mobile-header-one has-slideshow double-menu crowd-layout crowd-mobile-menu crowd-header-bottom crowd-full-screen crowd-simple-menu crowd-double-menu thumb-title-over">
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <span class="mobile-menu-toggle icon-close"></span>
+            <ul id="menu-main-menu" class="nav-menu">
+                <li id="menu-item-23988" class="menu-item menu-item-type-post_type menu-item-object-page    page_item page-item-23929 current_page_item menu-item-23988 first">
+                    <a title="Return Home" href="index.html">Home 
+                        <span class="menu-description"> return home</span>
+                    </a>
+                </li>
+                <li id="menu-item-24032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24032">
+                    <a title="find out more" href="#">Portfolio 
+                        <span class="menu-description"> photo &amp; video</span>
+                    </a>
+                    <ul class="children">
+                        <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                            <a href="index.html#photography">Photography</a>
+                        </li>
+                        <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
+                            <a href="index.html#videography">Videography</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="menu-item-24032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24032">
+                    <a title="find out more" href="#">Information 
+                        <span class="menu-description"> find out more</span>
+                    </a>
+                    <ul class="children">
+                        <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                            <a href="index.html#about">About</a>
+                        </li>
+                        <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
+                            <a href="#packages">Investment</a>
+                        </li>
+                        <li id="menu-item-23986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>       
+        </div>
+    </div>
+
+    <aside class="bg-dark" style="background-color:#FFF;">
+       <img src="img/logoPS.png" style="width: 25%; height: 25%; margin-top: -2%; margin-bottom:-2%; padding-bottom:0;" alt="">
+    </aside>
+
+
+
+        <!-- <script type="text/javascript">
+                jQuery(function($) {
+                $('a.slide-down').click(function(e){
+                   e.preventDefault();
+                   $('body,html').animate({scrollTop: $('#packages').offset().top - 70}, 750);
+                    });
+                });
+                </script>-->
+
+
+     <div class="sticky sticky-holder">
+            <header data-topbar id="masthead" class="site-header" role="banner">
+                <div class="header-main">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div class="header-main-inner">
+                                <div class="inner">
+                                    <div class="site-identity  site-logo ">
+                                         <h1 class='site-title'>
+                                            <a class='logo' href='http://sageandsea.com' rel='home' >
+                                                <img src='img/logoPS.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-descktop-logo' width='520' height='171' />
+                                                <img src='img/logoPS.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-mobile-logo' />
+                                            </a>
+                                        </h1>                                   
+                                    </div>
+                                    <div class="nav-wrapper">
+                                        <nav id="primary-navigation" class="site-navigation primary-navigation clearfix" role="navigation">
+                                            <a class="sr-only skip-link" href="#content">Skip to content</a>
+                                            <ul id="menu-main-menu-1" class="nav-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page    page_item page-item-23929 current_page_item menu-item-23988 first">
+                                                    <a title="Return Home" href="index.html">Home <span class="menu-description"> Return Home</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24501">
+                                                    <a title="Portfolio" href="index.html#videography">Portfolio <span class="menu-description"> photo &amp; video</span>
+                                                    </a>
+                                                    <ul class="children">  
+                                                        <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                                                            <a href="index.html#videography">Videography</a>
+                                                        </li>
+                                                        <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
+                                                            <a href="index.html#photography">Photography</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24032">
+                                                    <a title="More Information" href="#">Information <span class="menu-description"> find out more</span>
+                                                    </a>
+                                                    <ul class="children">
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                                                            <a href="index.html#about">About</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
+                                                            <a href="#packages">Investment</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
+                                                            <a href="#contact">Contact</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>    
+                                        </nav>
+                                    <!-- end .nav-wrapper -->
+                                    </div> 
+
+                                    <!-- end .site-identity -->
+
+                                    <div class="menu-toggle-wrap">
+                                        <button class="menu-toggle js-open-primary-navigation">
+                                            <i class="icon-menu"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <!-- end .columns -->
+                    </div>
+            <!-- end .row -->
+                </div>
+        <!-- end .header-main -->
+            </header> <!-- end .site-header -->
+        </div>
+
+        <div id="main" class="site-main">
+            <div id="main-content" class="main-content">
+                <div class="row ">
+                    <div class="single-layout-width">
+
+                        <div id="primary" class="content-area small-12 small-12 large-12 columns">
+                            <div id="content" class="content">
+                                            
+                                <article class="post-article ">
+                                    <div class="post-article-inner">
+
+                                        <header class="post-header ">
+                                            <div class="post-meta">
+                                                <span class="post-decoration meta-wrap">
+                                                    <img class="title-decoration" src="/img/Logo (Wreath & S).png" alt=""/>
+                                                </span>
+                                            </div>
+    
+                                            <h2 class="post-title entry-title">JUSTIN+JASMINE<span class="post-title-after">
+                                                <!--___, ___, ON</span>-->
+                                            </h2 >
+
+                                            <div class="post-meta">
+                                                <span class="post-date meta-wrap entry-date">
+                                                    <a href="#" rel="bookmark">
+                                                        <time class="post-date updated" datetime="2014-11-19T19:23:14+00:00">
+                                                            <!--August __, 2015-->
+                                                         </time>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                    <!-- end .post-header -->
+                                        </header> 
+
+                                        <div class="post-content-wrap">
+                                            <div class="post-content">
+                                                <div class="jar-entry-content text-center">
+                                                    <!--<p>Short description of wedding.</p>-->
+
+                                        <!-- Start of Images -->
+<p><a href="img/Albums/JustinJasmineWedding/IMG_6805-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_6805-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_6805-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_6805-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_6867-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_6867-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_6867-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_6867-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_6931-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_6931-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_6931-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_6931-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7068-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7068-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7068-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7068-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7090-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7090-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7090-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7090-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7093-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7093-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7093-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7093-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7137-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7137-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7137-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7137-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7183-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7183-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7183-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7183-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7217-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7217-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7217-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7217-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7296-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7296-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7296-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7296-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7337-7491.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7337-7491.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7337-7491.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7337-7491.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7348-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7348-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7348-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7348-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7365-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7365-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7365-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7365-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7378-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7378-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7378-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7378-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7465-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7465-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7465-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7465-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7502-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7502-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7502-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7502-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7550-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7550-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7550-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7550-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7683-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7683-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7683-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7683-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7695-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7695-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7695-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7695-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7757-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7757-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7757-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7757-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7780-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7780-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7780-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7780-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7789-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7789-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7789-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7789-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7828-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7828-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7828-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7828-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7831-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7831-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7831-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7831-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7892-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7892-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7892-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7892-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7961-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7961-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7961-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7961-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_7972-7983.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_7972-7983.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_7972-7983.jpg 300w, img/Albums/JustinJasmineWedding/IMG_7972-7983.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8039-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8039-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8039-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8039-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8154-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8154-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8154-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8154-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8226-2.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8226-2.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8226-2.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8226-2.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8277-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8277-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8277-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8277-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8411-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8411-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8411-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8411-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8463-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8463-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8463-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8463-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8629-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8629-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8629-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8629-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8672-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8672-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8672-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8672-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8688-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8688-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8688-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8688-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8756-c8820.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8756-8820.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8756-8820.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8756-8820.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8769-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8769-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8769-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8769-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8794-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8794-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8794-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8794-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8795-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8795-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8795-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8795-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_8883-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_8883-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_8883-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_8883-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9158-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9158-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9158-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9158-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9210-9426.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9210-9426.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9210-9426.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9210-9426.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9352-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9352-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9352-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9352-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9363-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9363-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9363-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9363-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9406-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9406-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9406-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9406-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9421-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9421-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9421-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9421-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9616-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9616-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9616-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9616-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9661-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9661-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9661-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9661-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9668-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9668-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9668-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9668-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9729-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9729-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9729-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9729-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9756-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9756-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9756-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9756-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9765-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9765-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9765-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9765-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_9845-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_9845-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_9845-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_9845-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_0096-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_0096-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_0096-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_0096-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_0192-0248.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_0192-0248.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_0192-0248.jpg 300w, img/Albums/JustinJasmineWedding/IMG_0192-0248.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_0239-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_0239-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_0239-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_0239-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+<p><a href="img/Albums/JustinJasmineWedding/IMG_0310-copy.jpg"><img classes="aligncenter size-full wp-image-20428" src="img/Albums/JustinJasmineWedding/IMG_0310-copy.jpg" alt="" width="675" height="449" srcset="img/Albums/JustinJasmineWedding/IMG_0310-copy.jpg 300w, img/Albums/JustinJasmineWedding/IMG_0310-copy.jpg 675w" sizes="(max-width: 675px) 100vw, 675px"/></p>
+
+
+
+
+                                        <!---end of images -->
+
+
+                                                </div>                                          
+                                            </div>
+                                    <!-- end .post-content -->
+                                            
+                                            <!--<footer class="post-footer">
+                                                <div class="post-meta">
+                                                    <span class="left">
+                                                        <span class="post-tag meta-wrap">
+                                                            <span class="post-tag-entry">Tags: </span>
+                                                                <a href="http://benjhaisch.com/tag/crystal-mountain/" class="">crystal mountain, </a>
+                                                                <a href="http://benjhaisch.com/tag/engagement/" class="">Engagement, 
+                                                                </a>
+                                                                <a href="http://benjhaisch.com/tag/mountaintop/" class="">mountaintop, 
+                                                                </a>
+                                                                <a href="http://benjhaisch.com/tag/mountaintop-engagement/" class="">mountaintop engagement, 
+                                                                </a>
+                                                                <a href="http://benjhaisch.com/tag/mountaintop-proposal/" class="">mountaintop proposal, 
+                                                                </a>
+                                                                <a href="http://benjhaisch.com/tag/northwest/" class="">northwest, 
+                                                                </a>
+                                                                <a href="http://benjhaisch.com/tag/pnw/" class="">PNW, 
+                                                                </a>
+                                                                <a href="http://benjhaisch.com/tag/proposal/" class="">proposal
+                                                                </a>    
+                                                        </span>
+                                                    </span>
+                                                    <span class="right">
+                                                    </span>
+                                    
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                </div>
+                                
+                                            </footer>-->
+                                    
+                                    <!-- end .post-footer -->
+                                                                            
+
+                                        </div> <!-- end .post-content-right -->
+
+                                    </div> <!-- end .post-article-inner -->
+
+                                </article>
+
+                                <div class="related-box  ">
+        
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <h3 id="related-title" class="block-title ">
+                                                <a href="javascript:void(0)">
+                                                    <span>RELATED</span>
+                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div> <!-- end .row -->
+
+                                    <div class="row">
+            
+            
+                                        <div class="small-12 medium-4 columns ">
+                                            <article>
+                                                <header class="entry-header">
+                                                    <div class="featimg">
+                                                        <div  class="video-play-hover hide">
+                                                            <a href="/haydenalanna.html">
+                                                                <i class="icon-youtube-play"></i>
+                                                            </a>
+                                                        </div>
+                                                        <a href="/haydenalanna.html" title="HAYDEN+ALANNA - Wedding" rel="bookmark">
+                                                            <img src="img/Albums/HaydenAlanaEngagement/IMG_9333-copy.jpg" alt="HAYDEN+ALANNA">
+                                                        </a>
+                                                    </div>
+                                                </header>
+                                                <section class="entry-content">
+                                                    <h4 class="entry-title text-center">
+                                                        <a href="/haydenalanna.html" title="HAYDEN+ALANNA - Wedding" rel="bookmark">HAYDEN+ALANNA</a>
+                                                    </h4>
+                                                </section>
+
+                                            </article>
+                                        </div>
+                
+                                        <div class="small-12 medium-4 columns ">
+                                           <article>
+                                                <header class="entry-header">
+                                                    <div class="featimg">
+                                                        <div  class="video-play-hover hide">
+                                                            <a href="/nicolemarshall.html">
+                                                                <i class="icon-youtube-play"></i>
+                                                            </a>
+                                                        </div>
+                                                        <a href="/nicolemarshall.html" title="NICOLE+MARSHALL - Wedding" rel="bookmark">
+                                                            <img src="img/Albums/NicoleMarshallWedding/Combined/IMG_0963-copy.jpg" alt="NICOLE+MARSHALL">
+                                                        </a>
+                                                    </div>
+                                                </header>
+                                                <section class="entry-content">
+                                                    <h4 class="entry-title text-center">
+                                                        <a href="/nicolemarshall.html" title="NICOLE+MARSHALL - Wedding" rel="bookmark">NICOLE+MARSHALL</a>
+                                                    </h4>
+                                                </section>
+
+                                            </article>
+                                        </div>
+
+                
+                                        <div class="small-12 medium-4 columns ">
+                                            <article>
+                                               <article>
+                                                <header class="entry-header">
+                                                    <div class="featimg">
+                                                        <div  class="video-play-hover hide">
+                                                            <a href="/sarahscott.html">
+                                                                <i class="icon-youtube-play"></i>
+                                                            </a>
+                                                        </div>
+                                                        <a href="/sarahscott.html" title="SARAH+SCOTT - Engagement" rel="bookmark">
+                                                            <img src="img/Albums/SarahScottWedding/Combined/IMG_1449-copy.jpg" alt="SARAH+SCOTT">
+                                                        </a>
+                                                    </div>
+                                                </header>
+                                                <section class="entry-content">
+                                                    <h4 class="entry-title text-center">
+                                                        <a href="/sarahscott.html" title="SARAH+SCOTT - Engagement" rel="bookmark">SARAH+SCOTT</a>
+                                                    </h4>
+                                                </section>
+
+                                            </article>
+                                        </div>
+
+                                    </div> <!-- end .row -->
+
+                                </div>
+                                <nav class="pagination post-pagination">
+                                    <div class="pagination-wrapper">
+                                        <div class="prev-post">
+                                            <div class="inner">
+                                                <div class="prev-post-inner">
+                                                   <a href="/haydenalanna.html" class="prev">Prev</a>
+                                                        <img width="150" height="150" src="img/Albums/HaydenAlanaEngagement/IMG_9479-copy-150.jpg" class="attachment-150x150 size-150x150 wp-post-image" alt="HAYDEN+ALANNA" />                            
+                                                </div>
+                                                <span class="next-post-title">
+                                                    <a href="/haydenalanna.html" style="font-size: 0.9em">
+                                                        HAYDEN+ALANNA
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="next-post">
+                                            <div class="inner">
+                                                <div class="next-post-inner">
+                                                   <a href="/nicolemarshall.html" class="prev">Next</a>
+                                                    <img width="150" height="150" src="img/Albums/NicoleMarshallWedding/IMG_0392-copy-2-150.jpg" class="attachment-150x150 size-150x150 wp-post-image" alt="NICOLE+MARSHALL" />                                           
+                                                </div>
+                                                <span class="next-post-title">
+                                                    <a href="/nicolemarshall.html" style="font-size: 0.8em">
+                                                       NICOLE+MARSHALL
+                                                    </a>           
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav> <!-- end .pagination -->
+
+                            </div><!-- end #content -->
+
+                        </div>
+                                                
+                    <!-- end #primary -->
+                    </div>
+                <!-- end .row -->
+                </div> <!-- end #main-content -->
+            </div>
+        </div>
+
+
+
+
+    <footer id="contact" class="site-footer" role="contentinfo">
+        <div id="supplementary" class="footer-top">
+            <div class="row">
+                <div class="column">
+                    <div class="footer-top-inner">
+                        <div id="footer-sidebar" class="footer-sidebar widget-area  widget-bordered " role="complementary">
+                            <div class="row">
+                                <div class="medium-12 large-4 columns widget-container">
+                                    <aside id="widget_cosmo_jar_images-1" class="widget" style="padding-top: 50px; padding-bottom: 25px; margin-bottom: 0px;">
+                                        <div class="jar_images">
+                                            <div class="jar-image-block">
+                                                <div class="jar-image-inner  fuc_13768  jar-no-image " style="">
+                                                    <div class="jar-image-text">
+                                                        <div class="inner-title">
+                                                            <a href="packages.html" style=" color: #000000; " class="button-title-link">
+                                                            <h5 class="widget-title" style=" color: #000000;">
+                                                            INVESTMENT                         
+                                                            </h5>
+                                                            </a>
+                                                            <p class="widget-delimiter" style="background: #000000">&nbsp;</p>
+                                                            <p>
+                                                                <a href="packages.html" style=" color: #000000; " class="button-title-link">
+                                                                Packages &amp; Details >                        
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside>                                  
+                                <!-- end .widget -->
+                                </div>
+                                <!-- end .columns -->
+
+                                <div class="medium-12 large-4 columns widget-container">
+                                    <aside id="widget_cosmo_socialicons-1" class="widget" style="padding-top:50px;">
+                                        <div class="jar-widget widget_socialicons">
+                                            <div class="fuc_19166 " style="">
+                                                <a href="mailto:sage.and.sea.co@gmail.com" class="hover-menu">
+                                                    <h5 class="widget-title" >CONTACT US
+                                                </h5>
+                                                </a>
+                                                <p class="widget-delimiter">&nbsp;</p>
+                                                <div class="social-links">
+                                                    <div class="social">
+                                                        <a href="mailto:sage.and.sea.co@gmail.com" class="hover-menu">
+                                                            <i class="icon-email"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside>                                    
+                                <!-- end .widget -->
+                                </div>
+                                <!-- end .columns -->
+
+                                <div class="medium-12 large-4 columns widget-container">
+                                    <aside id="widget_cosmo_socialicons-1" class="widget">
+                                        <div class="jar-widget widget_socialicons">
+                                            <div class="fuc_19166 " style="">
+                                                <h5 class="widget-title">CHECK US OUT</h5>
+                                                <p class="widget-delimiter">&nbsp;</p>                 
+                                                <div class="social-links">
+                                                    <div class="social">
+                                                        <a href="http://instagram.com/alliladd" class="vimeo hover-menu" style="text-decoration: none;">
+                                                            <i class="icon-instagram"></i>
+                                                        </a>
+                                                        <a href="https://www.facebook.com/sage.and.sea.co" class="vimeo hover-menu" style="text-decoration: none;">
+                                                            <i class="icon-facebook"></i>
+                                                        </a>
+                                                        <a href="https://vimeo.com/151988234" class="vimeo hover-menu">
+                                                            <i class="icon-vimeo"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside>                                    
+                                <!-- end .widget -->
+                                </div>
+                                <!-- end .columns -->
+
+                            </div>
+                            <!-- end .row -->
+                        </div>
+                        <!-- end #footer-sidebar -->
+                    </div> <!-- end .footer-top-inner -->
+                </div>
+            <!-- end .columns -->
+            </div>
+        <!-- end .row -->
+        </div>
+        <div>
+        <br>
+        <br>
+        <p align="center"style="color:black; font-size:10px">©2016 Sage &amp; Sea. All Rights Reserved.</P>
+    </div>
+    </footer>
+
+
+<script type='text/javascript' src='js/core.min.js'></script>
+<script type='text/javascript' src='js/widget.min.js'></script>
+<script type='text/javascript' src='js/accordion.min.js'></script>
+<script type='text/javascript' src='js/tabs.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = "admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='js/cosmo-shortcodes-lib.js'></script>
+<script type='text/javascript' src='js/jquery.fancybox.pack.js'></script>
+<script type='text/javascript' src='js/scripts.js'></script>
+<script type='text/javascript' src='js/all-min.js'></script>
+<script type='text/javascript'>
+</script>
+<script type='text/javascript' src='//benjhaisch.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1'></script>
+<script type='text/javascript'>
+
+/* <![CDATA[ */
+var jarScaleSliderWidth = "1300";
+var jarScaleSliderHeight = "770";
+var jarScaleSliderWidthVideo = "1070";
+var jarScaleSliderHeightVideo = "570";
+var slideshow_autoplay = "1";
+var main_slideshow_autoplay_dalay = "3000";
+var main_slideshow_show_bullets = "no";
+var main_slideshow_show_arrow = "no";
+var ajaxurl = "http:\/\/benjhaisch.com\/wp-admin\/admin-ajax.php";
+var jar_js_data = {"header_1_menu_spacing_nonce":"fb4df24961","site_width":"1130","header_logo_style":"header_style2","header_1_menu_spacing":"125px","header_4_menu_left_spacing":"0px","header_4_menu_right_spacing":"0px","header_4_menu_spacing_nonce":"5b97ffc7e9","single_gallery_autoplay":"0","single_gallery_autoplay_dalay":"3000","main_slideshow_hover_stop":"yes","gallery_slideshow_hover_stop":"yes","visible_nearby_image_width":"400","visible_nearby_image_height":"500","full_width_sl_image_width":"1920","full_width_sl_image_height":"720","full_screen_sl_image_width":"1920","full_screen_sl_image_height":"1200","gallery_visible_nearby_gutter":"8","enable_paralax":"yes","video_iframe_width":"780","video_iframe_height":"460"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='js/jar-min.js'></script>
+<script type='text/javascript' src='//benjhaisch.com/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+</body>
+</html>
