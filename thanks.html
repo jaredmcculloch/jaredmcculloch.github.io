@@ -7,12 +7,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We would love to capture your story. Contact us and we can work together to make it happen.">
+    <meta name="description" content="Thank you for contacting us! We will be in touch soon to discuss your special day.">
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <title>Sage &amp; Sea Co. | Contact</title>
-    
+    <title>Sage &amp; Sea Co. | Thanks</title>
 
 
     <style type="text/css">                 
@@ -38,16 +37,24 @@
     }
 
     </style>    
+        
 
  <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creativewhite4.css" type="text/css">
     <!--FancyBox-->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
     <!--Hover Effects-->
     <link href="css/hover.css" rel="stylesheet" media="all">
     <!--Other Styles-->
     <link rel='stylesheet' id='cosmo-shortcodes-css'  href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jar_instagram_fontello-css'  href='css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jar_instagram_frontend__stylesheet-css'  href='css/jarinstastyle.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jar_instagram_fancybox-css'  href='css/jquery.fancybox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jarroyal-css'  href='css/royalslider.css' type='text/css' media='all' />
     <link rel='stylesheet' id='fancybox-css'  href='css/jquery.fancybox.css' type='text/css' media='all' />
     <link rel='stylesheet' id='mediaelement-css'  href='css/mediaelementplayer.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='mejs-skins-css'  href='css/mejs-skins.css' type='text/css' media='all' />
@@ -64,7 +71,13 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <!--FancyBox-->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
             <!-- Optional, Add mousewheel effect -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
     <!-- Other -->
     <script type='text/javascript' src='js/jquery-migrate.min.js'></script> 
 
@@ -229,7 +242,13 @@ nav#primary-navigation ul .children {
 
 
 
-  </style>
+input[type="button"], input[type="submit"], button, .comment-respond button {
+
+    border-radius: 5px!important;
+
+    -webkit-border-radius: 5px!important;
+
+}       </style>
 
             <style type="text/css">
             
@@ -402,31 +421,7 @@ nav#primary-navigation ul .children {
                 .main-navigation .menu ul.children a{ font-size: -1px ; }
             }
         </style>
-
-<!--Scripts-->
-    <script>
-
-    jQuery(document).ready(function($) {
-
-        $(".page-scroll").click(function(event) {
-            event.preventDefault(); 
-
-            var defaultAnchorOffset = 10;
-            
-            var $anchor = $('#' + this.hash.substring(1));
-                    
-            var anchorOffset = $anchor.data('anchor-offset');
-            if (!anchorOffset) // for when anchor doesn't have the offset attribute like Section 4
-                anchorOffset = defaultAnchorOffset; 
-
-            $('html,body').animate({ 
-                scrollTop: $anchor.offset().top +50 - anchorOffset
-            }, 500);        
-        });
-    });
-
-
-    </script>
+        <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
 
 <body class="page page-id-3963 page-template page-template-templates page-template-template-contact-form page-template-templatestemplate-contact-form-php  header_style2 mobile-header-one double-menu">
@@ -459,13 +454,13 @@ nav#primary-navigation ul .children {
                     </a>
                     <ul class="children">
                         <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
-                            <a href="index.html#about">About</a>
+                            <a href="/index.html#about">About</a>
                         </li>
                         <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
                             <a href="/packages.html">Investment</a>
                         </li>
                         <li id="menu-item-23986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
-                            <a href="#contact-form-one">Contact</a>
+                            <a href="/contact.html">Contact</a>
                         </li>
                     </ul>
                 </li>
@@ -524,7 +519,7 @@ nav#primary-navigation ul .children {
                                                 <a href="/packages.html">Investment</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
-                                                <a href="#contact-form-one">Contact</a>
+                                                <a href="/contact.html">Contact</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -532,12 +527,12 @@ nav#primary-navigation ul .children {
                             </nav>
                         </div> <!-- end .nav-wrapper -->
 
-                         <div class="site-identity  site-logo " style="padding-bottom: 0px; padding-top:10px;">
+                         <div class="site-identity  site-logo ">
                              <h1 class='site-title'>
                                 <a class='logo' href='http://sageandseaco.com' rel='home' style="font-family: Chasing Embers One; font-size: 2.0em; color: black; text-decoration: none;" >
-                                    <!--<img src='img/logoPS.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-descktop-logo' width='520' height='171' />-->
-                                   <!-- <img src='img/logoPS.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-mobile-logo' />-->
-                                   Sage &amp; Sea
+                                    <img src='img/sageandseaBlack.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-descktop-logo' width='520' height='171' />
+                                    <img src='img/sageandseaBlack.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-mobile-logo' />
+                                     <!--Sage &amp; Sea-->
                                 </a>
                             </h1>                                   
                         </div>
@@ -550,7 +545,16 @@ nav#primary-navigation ul .children {
                             <i class="icon-menu"></i>
                         </button>
                     </div>
+                    
                 </div>
+                    <img src='/img/icons/checkmarkBlack.png' alt='Sage &amp; Sea | Message Sent' class='crowd-descktop-logo'  style="margin-top: 5%; max-width:10%;" />
+                     <img src='img/icons/checkmarkBlack.png' alt='Sage &amp; Sea | Message Sent' class='crowd-mobile-logo' style="margin-top: 10%; max-width:40%;" />
+                    <div style="margin-top: 8%;" class='crowd-descktop-logo'>
+                        <img src='img/thanksfromsageandsea.png' alt='Sage &amp; Sea | Message Sent' class='crowd-descktop-logo' style="margin-top: 0%;" />
+                    </div>
+                    <div style="margin-top: 15%;" class='crowd-mobile-logo'>
+                        <img src='img/thanksfromsageandsea.png' alt='Sage &amp; Sea | Message Sent' class='crowd-mobile-logo' style="margin-top: 10%;" />
+                    </div>
             </div>
         </div>
 <!-- end .columns -->
@@ -562,207 +566,12 @@ nav#primary-navigation ul .children {
 
             <div id="main" class="site-main">
                <div id="main-content" class="main-content">
+                    
     
 
     <!-- ================ TOP FULL WIDTH CONTENT ================= -->
 
-                  <div class="row">
-
-                     <div id="primary" class="content-area small-12 columns">
-
-                        <div id="content" class="content">
-                           <div class="flo-modal">
-                              <div class="thx-msg">
-                                 <div class="icon-close">
-                              </div>
-                              <div id="form-messages" class="content">
-                              Email was sent successfully                         
-                              </div>
-                           </div>
-                           </div>
-
-                           <header class="post-header  page-header ">
-                              <div class="post-meta">
-                              </div>
-    
-                              <h2 class="post-title entry-title">
-                              Contact 
-                              </h2 >
-
-                           </header> <!-- end .post-header -->
-                                                                
-                           <section id="contact-form-one" class="contact-form contact-form-one">
-                              <div class="contact-wrap">
-                                 <div class="contact-inner">
-
-                                    <div class="contact-right">
-                                       <div class="form-entry">
-                                          <br>
-                                          <br>
-                                          <p>Please include your name and your wedding date if possible.</p>
-                                       </div>
-                                
-                                       <form id="contactform" method="POST">
-                                        <input type="text" name="name" placeholder="Your name">
-                                        <input type="email" name="_replyto" placeholder="Your email">
-                                        <input type="hidden" name="_subject" value="New Message to Sage &amp; Sea Co." />
-                                        <textarea name="message" placeholder="Message"></textarea>
-                                        <input type="hidden" name="_next" value="/thanks.html" />
-                                        <input type="text" name="_gotcha" style="display:none" />
-                                        <input type="submit" value="Send">
-                                    </form>
-                                <script>
-                                    var contactform =  document.getElementById('contactform');
-                                    contactform.setAttribute('action', '//formspree.io/' + 'sage.and.sea.co' + '@' + 'gmail' + '.' + 'com');
-                                </script>
-
-                                    </div> <!-- end .contact-right -->
-                                    
-
-                                    <div class="contact-left">
-                                       <div class="contact-block contact-email">
-                                          <h3 class="contact-subtitle">Email: </h3>
-                                             <p>sage.and.sea.co@gmail.com</p>
-                                       </div>
-                                       <div class="contact-block contact-phone">
-                                          <h3 class="contact-subtitle"></h3>
-                                          <p>
-                                             <img src="img/Albums/RonStephanieWedding/IMG_1359.jpg">
-                                          </p>
-                                       </div>
-                                    </div> <!-- end .contact-left -->
-            
-                                 </div>
-                              </div>
-                           </section> <!-- end #contact-form-one -->
-
-                        </div> <!-- end #content -->
-
-                     </div> <!-- end #primary -->
-
-<!-- ================== SIDEBAR HERE ================ -->
-
-                  </div> <!-- end .row -->
-
-<!-- ================ BOTTOM FULL WIDTH CONTENT ================= -->
-
-
-               </div> <!-- end #main-content -->
-            </div>
-         </div>
- <!--     </div>
-   </div>
-</div>-->
-<footer id="colophon" class="site-footer" role="contentinfo">
-
-    <!-- PACKAGES, CONTACT, AND FOLLOW US SECTION -->
-    <footer id="contact" class="site-footer" role="contentinfo">
-        <div id="supplementary" class="footer-top">
-            <div class="row">
-                <div class="column">
-                    <div class="footer-top-inner">
-                        <div id="footer-sidebar" class="footer-sidebar widget-area  widget-bordered " role="complementary">
-                            <div class="row">
-                                <div class="medium-12 large-4 columns widget-container">
-                                    <aside id="widget_cosmo_jar_images-1" class="widget" style="padding-top: 50px; padding-bottom: 25px; margin-bottom: 0px;">
-                                        <div class="jar_images">
-                                            <div class="jar-image-block">
-                                                <div class="jar-image-inner  fuc_13768  jar-no-image " style="">
-                                                    <div class="jar-image-text">
-                                                        <div class="inner-title">
-                                                            <a href="packages.html" style=" color: #000000; " class="button-title-link">
-                                                            <h5 class="widget-title" style=" color: #000000; letter-spacing: 0.1em;">
-                                                            INVESTMENT                         
-                                                            </h5>
-                                                            </a>
-                                                            <hr style="margin: 0 auto; font-size:10px; border: solid grey; border-width: 2px 0 0;"> 
-                                                            <br>
-                                                            <p>
-                                                                <a href="packages.html" style=" color: #000000; font-family: Futura Medium; font-weight:lighter; font-size: 0.9em; text-transform: uppercase; font-style:normal; line-height:1.0em; letter-spacing: 0em; " class="button-title-link">
-                                                                Packages &amp; Details >                        
-                                                                </a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </aside>                                  
-                                <!-- end .widget -->
-                                </div>
-                                <!-- end .columns -->
-
-                                <div class="medium-12 large-4 columns widget-container">
-                                    <aside id="widget_cosmo_socialicons-1" class="widget" style="padding-top:50px;">
-                                        <div class="jar-widget widget_socialicons">
-                                            <div class="fuc_19166 " style="">
-                                                <a href="#contact-form-one" class="hover-menu">
-                                                    <h5 class="widget-title" style=" color: #000000; letter-spacing: 0.1em;" >CONTACT US
-                                                </h5>
-                                                </a>
-                                                 <hr style="margin: 0 auto; font-size:10px; border: solid grey; border-width: 2px 0 0;"> 
-                                                <br>  
-                                                <div class="social-links">
-                                                    <div class="social">
-                                                        <a href="#contact-form-one" class="hover-menu">
-                                                            <i class="icon-email"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </aside>                                    
-                                <!-- end .widget -->
-                                </div>
-                                <!-- end .columns -->
-
-                                <div class="medium-12 large-4 columns widget-container">
-                                    <aside id="widget_cosmo_socialicons-1" class="widget">
-                                        <div class="jar-widget widget_socialicons">
-                                            <div class="fuc_19166 " style="">
-                                                <h5 class="widget-title" style=" color: #000000; letter-spacing: 0.1em;">CHECK US OUT</h5>
-                                                 <hr style="margin: 0 auto; font-size:10px; border: solid grey; border-width: 2px 0 0;"> 
-                                                <br>                   
-                                                <div class="social-links">
-                                                    <div class="social">
-                                                        <a href="http://instagram.com/alliladd" class="vimeo hover-menu" style="text-decoration: none;">
-                                                            <i class="icon-instagram"></i>
-                                                        </a>
-                                                        <a href="https://www.facebook.com/sage.and.sea.co" class="vimeo hover-menu" style="text-decoration: none;">
-                                                            <i class="icon-facebook"></i>
-                                                        </a>
-                                                        <a href="https://vimeo.com/151988234" class="vimeo hover-menu">
-                                                            <i class="icon-vimeo"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </aside>                                    
-                                <!-- end .widget -->
-                                </div>
-                                <!-- end .columns -->
-
-                            </div>
-                            <!-- end .row -->
-                        </div>
-                        <!-- end #footer-sidebar -->
-                    </div> <!-- end .footer-top-inner -->
-                </div>
-            <!-- end .columns -->
-            </div>
-        <!-- end .row -->
-        </div>
-     
-        <div>
-            <br>
-            <br>
-            <p align="center" style="color:black; font-size:10px; text-transform: none;">©2016 Sage &amp; Sea. All Rights Reserved.</P>
-        </div>  
-    </footer><!-- end #colophon -->
 </div><!-- end #page -->
-
-
 
 <!--Scripts-->
     <script type='text/javascript' src='js/widget.min.js'></script>
@@ -771,7 +580,6 @@ nav#primary-navigation ul .children {
     <script type='text/javascript'>
 
     /* <![CDATA[ */
-    //var ajaxurl = "mailer.php";
     /* ]]> */
     </script>
     <script type='text/javascript' src='js/jquery.fancybox.pack.js'></script>
@@ -780,24 +588,10 @@ nav#primary-navigation ul .children {
     <script type='text/javascript' src='js/mediaelement-and-player.min.js'></script>
     <script type='text/javascript'>
 
-    /* <![CDATA[ */
-    var jarScaleSliderWidth = "1300";
-    var jarScaleSliderHeight = "770";
-    var jarScaleSliderWidthVideo = "1070";
-    var jarScaleSliderHeightVideo = "570";
-    var slideshow_autoplay = "1";
-    var main_slideshow_autoplay_dalay = "3000";
-    var main_slideshow_show_bullets = "no";
-    var main_slideshow_show_arrow = "no";
-    //var ajaxurl = "mailer.php";
-    var jar_js_data = {"header_1_menu_spacing_nonce":"a80442bdda","site_width":"1130","header_logo_style":"header_style2","header_1_menu_spacing":"126.5px","header_4_menu_left_spacing":"0px","header_4_menu_right_spacing":"0px","header_4_menu_spacing_nonce":"6f79f71ff7","single_gallery_autoplay":"0","single_gallery_autoplay_dalay":"3000","main_slideshow_hover_stop":"yes","gallery_slideshow_hover_stop":"yes","visible_nearby_image_width":"400","visible_nearby_image_height":"500","full_width_sl_image_width":"1920","full_width_sl_image_height":"720","full_screen_sl_image_width":"1920","full_screen_sl_image_height":"1200","gallery_visible_nearby_gutter":"8","enable_paralax":"yes","video_iframe_width":"780","video_iframe_height":"460"};
-    /* ]]> */
     </script>
-    <script type='text/javascript' src='js/jar-min.js'></script>
-<script type='text/javascript' src='js/wp-embed.min.js'></script>
-<script type='text/javascript' src='js/app-min.js'></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
+      <script type='text/javascript' src='js/app-min.js'></script>
 
     <!--<script type='text/javascript'> 
     $
