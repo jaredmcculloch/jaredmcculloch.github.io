@@ -1,13 +1,4 @@
-/*wra
- Theme Name:     Crowd Child
- Theme URI:      http://flothemes.com
- Description:    Crowd Child Theme
- Author:         Flothemes
- Author URI:     http://flothemes.com
- Template:       crowd
-*/
 
-/* hide footer widgets border top for some pages */
  .page-id-75 .footer-top-inner, .page-id-409 .footer-top-inner{ border-top: 0px; padding-top:10px; } 
 
 .page-id-411 .footer-top-inner, .page-id-182 .footer-top-inner{ border-top: 0px;}
@@ -57,8 +48,10 @@
 
 @media only screen and (max-width: 640px){
 .textwidget .wraper_about .inner_about {
-  padding: 25px 0px 60px;
+  padding: 35px 10px 40px 10px;
+  font-size: 0.6em;
 }
+
 .textwidget .wraper_about .inner_about a.about_button {
     top: 65px;
 }
@@ -73,7 +66,7 @@
 
 .wraper_about
 {
- background: url(/img/justinjasmine2.jpg);
+ background: url(/wp-content/uploads/2015/11/benj_homepage_new.jpg);
   background-size: cover;
   padding: 10% 10%;
   background-position: center center;
@@ -163,7 +156,7 @@ a.slide-down.icon.icon-small-arrow {
   bottom: 20%;
   width: 26px;
   height: 26px;
- background:url(img/slider_button.png);
+ background:url(/img/icons/slider_button.png);
 }
 
 .widget_search fieldset {
@@ -174,11 +167,31 @@ a.slide-down.icon.icon-small-arrow {
     font-size: 10px;
     text-transform: uppercase;
 }
-
+@media only screen and (min-width:768px) {
 .primary-navigation ul li ul, .crowd-full-screen .children {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.22);
 }
-
+}
 .widget-title {
    text-transform:none;
+}
+
+@media only screen and (max-width:767px) {
+.wraper_about {
+    padding: 10% 3%;
+}
+.wraper_about .inner_about {
+    width: 90%;
+}
+.copy .widget {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    float: none;
+    max-width: 240px;
+}
+.copy .copyright {
+    float: none;
+    text-align: center;
+}
 }

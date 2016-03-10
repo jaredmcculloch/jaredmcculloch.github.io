@@ -435,7 +435,8 @@ header .header-content .header-content-inner p {
 
 .package-line p {
     margin-bottom:5px;
-    padding-left: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size:0.85em;
 }
 
