@@ -19,12 +19,6 @@
     <link rel="stylesheet" href="css/grid.css" type="text/css">
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 <!-- jQuery -->
 
@@ -38,9 +32,6 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
- 
-      <!--Beginning of FancyBox Scripts for pop-up galleries-->
         
 <!-- Add required fancyBox files -->
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
@@ -54,7 +45,6 @@
 <!-- Optional, Add mousewheel effect -->
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script> 
 
-<!-- HT styles -->
 <style type="text/css">
 .icon-circle {
 border: 3px solid #fc8151;
@@ -63,7 +53,7 @@ border: 3px solid #fc8151;
 opacity:0.9;
 }
 </style>
-<!-- End of HT styles-->
+
 
 
  <script type="text/javascript">
@@ -344,6 +334,8 @@ opacity:0.9;
                                 header.site-header
                         {
                             padding-top: 0px;
+                            padding-left: 10%;
+                            padding-right: 10%;
                         }
                                                 
                                         header.site-header
@@ -429,8 +421,7 @@ opacity:0.9;
 </head>
 
 
-
-<body class="home page page-id-23929 page-template page-template-templates page-template-template-blog page-template-templatestemplate-blog-php  header_style2 mobile-header-one has-slideshow double-menu crowd-layout crowd-mobile-menu crowd-header-bottom crowd-full-screen crowd-simple-menu crowd-double-menu thumb-title-over">
+<body class="page page-id-3963 page-template page-template-templates page-template-template-contact-form page-template-templatestemplate-contact-form-php  header_style2 mobile-header-one double-menu">
 
     <div class="mobile-menu">
         <div class="mobile-menu-inner">
@@ -447,10 +438,10 @@ opacity:0.9;
                     </a>
                     <ul class="children">
                         <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
-                            <a href="index.html#photography">Photography</a>
+                            <a href="/index.html#photography">Photography</a>
                         </li>
                         <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
-                            <a href="index.html#videography">Videography</a>
+                            <a href="/index.html#videography">Videography</a>
                         </li>
                     </ul>
                 </li>
@@ -459,14 +450,17 @@ opacity:0.9;
                         <span class="menu-description"> find out more</span>
                     </a>
                     <ul class="children">
-                        <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
-                            <a href="index.html#about">About</a>
-                        </li>
                         <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
-                            <a href="#packages">Investment</a>
+                            <a href="/packages.html">Investment</a>
+                        </li>
+                        <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                            <a href="index.html#contact">About</a>
                         </li>
                         <li id="menu-item-23986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
                             <a href="/contact.html">Contact</a>
+                        </li>
+                        <li id="menu-item-23999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
+                            <a href="#faq">FAQ</a>
                         </li>
                     </ul>
                 </li>
@@ -474,377 +468,211 @@ opacity:0.9;
         </div>
     </div>
 
-    <aside class="bg-dark" style="background-color:#FFF;">
-       <img src="img/logoPS.png" style="width: 50%; height: 50%; margin-top: 2%; margin-bottom:0; padding-bottom:0;" alt="">
-    </aside>
+<div class="sticky sticky-holder">
+    <header data-topbar id="masthead" class="site-header   " role="banner">
+        <div class="header-main">
+            <div class="row">
 
-
-
-        <!-- <script type="text/javascript">
-                jQuery(function($) {
-                $('a.slide-down').click(function(e){
-                   e.preventDefault();
-                   $('body,html').animate({scrollTop: $('#packages').offset().top - 70}, 750);
-                    });
-                });
-                </script>-->
-
-
-     <div class="sticky sticky-holder">
-            <header data-topbar id="masthead" class="site-header" role="banner">
-                <div class="header-main">
-                    <div class="row">
-                        <div class="small-12 columns">
-                            <div class="header-main-inner">
-                                <div class="inner">
-                                    <div class="site-identity  site-logo ">
-                                         <h1 class='site-title'>
-                                            <a class='logo' href='http://sageandseaco.com' rel='home' >
-                                                <img src='img/logoPS.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-descktop-logo' width='520' height='171' />
-                                                <img src='img/logoPS.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-mobile-logo' />
+                <div class="small-12 columns">
+                    <div class="header-main-inner">
+                        
+                                                
+                        <div class="inner">
+                            
+                            <div class="nav-wrapper">
+                                <nav id="primary-navigation" class="site-navigation primary-navigation clearfix" role="navigation">
+                                <a class="sr-only skip-link" href="#content">Skip to content</a>
+                                <ul id="menu-main-menu-1" class="nav-menu">
+                                         <li class="menu-item menu-item-type-post_type menu-item-object-page    page_item page-item-23929 current_page_item menu-item-23988 first" style="width:100px; padding-right:160px;">
+                                             <div class="site-logo " style="padding-bottom: 0px; padding-top:10px;">
+                                            <h1>
+                                            <a class='logo' href='http://sageandseaco.com' rel='home' style="font-family: Chasing Embers One; font-size: 2.0em; color: black; text-decoration: none;" >
+                                            <img src='img/sageandseaBlack.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-descktop-logo' width='520' height='171' style="width: 200px; padding-right: 30px; margin-right: 100px;" />
+                                            <img src='img/sageandseaBlack.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-mobile-logo' />
+                                             <!--Sage &amp; Sea-->
                                             </a>
-                                        </h1>                                   
-                                    </div>
-                                    <div class="nav-wrapper">
-                                        <nav id="primary-navigation" class="site-navigation primary-navigation clearfix" role="navigation">
-                                            <a class="sr-only skip-link" href="#content">Skip to content</a>
-                                            <ul id="menu-main-menu-1" class="nav-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page    page_item page-item-23929 current_page_item menu-item-23988 first">
-                                                    <a title="Return Home" href="index.html">Home <span class="menu-description"> Return Home</span>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24501">
-                                                    <a title="Portfolio" href="index.html#videography">Portfolio <span class="menu-description"> photo &amp; video</span>
-                                                    </a>
-                                                    <ul class="children">  
-                                                        <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
-                                                            <a href="index.html#videography">Videography</a>
-                                                        </li>
-                                                        <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
-                                                            <a href="index.html#photography">Photography</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24032">
-                                                    <a title="More Information" href="#">Information <span class="menu-description"> find out more</span>
-                                                    </a>
-                                                    <ul class="children">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
-                                                            <a href="index.html#about">About</a>
-                                                        </li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
-                                                            <a href="#packages">Investment</a>
-                                                        </li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
-                                                            <a href="/contact.html">Contact</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>    
-                                        </nav>
-                                    <!-- end .nav-wrapper -->
-                                    </div> 
+                                            </h1>                                   
+                                            </div>
+                                        </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page    page_item page-item-23929 current_page_item menu-item-23988 first" style="margin-right: 0px;">
+                                        <a title="Return Home" href="index.html">Home <span class="menu-description"> Return Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24501">
+                                        <a title="Portfolio" href="#">Portfolio <span class="menu-description"> photo &amp; video</span>
+                                        </a>
+                                        <ul class="children">  
+                                            <li id="menu-item-23985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                                                <a href="/index.html#videography">Videography</a>
+                                            </li>
+                                            <li id="menu-item-24245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
+                                                <a href="/index.html#photography">Photography</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24032" style="padding-left: 0px;">
+                                        <a title="More Information" href="#">Information <span class="menu-description"> find out more</span>
+                                        </a>
+                                        <ul class="children">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24245">
+                                                <a href="/packages.html">Investment</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23985">
+                                                <a href="/index.html#contact">About</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
+                                                <a href="/contact.html">Contact</a>
+                                            </li>
+                                            <li id="menu-item-23999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23986">
+                                            <a href="#faq">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>    
+                            </nav>
+                        </div> <!-- end .nav-wrapper -->
 
-                                    <!-- end .site-identity -->
-
-                                    <div class="menu-toggle-wrap">
-                                        <button class="menu-toggle js-open-primary-navigation">
-                                            <i class="icon-menu"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                         <div class="site-identity  site-logo " style="padding-bottom: 0px; padding-top:10px;">
+                             <h1 class='site-title'>
+                                <a class='logo' href='http://sageandseaco.com' rel='home' style="font-family: Chasing Embers One; font-size: 2.0em; color: black; text-decoration: none;" >
+                                   <!--<img src='img/sageandseaBlack.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-descktop-logo' width='520' height='171' />-->
+                                    <img src='img/sageandseaBlack.png' alt='Sage &amp; Sea | Photography &amp; Videography' class='crowd-mobile-logo' />
+                                     <!--Sage &amp; Sea-->
+                                </a>
+                            </h1>                                   
                         </div>
-                <!-- end .columns -->
                     </div>
-            <!-- end .row -->
+
+                            <!-- end .site-identity -->
+
+                    <div class="menu-toggle-wrap" style="margin-top: 0px; margin-bottom: 0px;">
+                        <button class="menu-toggle js-open-primary-navigation">
+                            <i class="icon-menu"></i>
+                        </button>
+                    </div>
                 </div>
-        <!-- end .header-main -->
-            </header> <!-- end .site-header -->
+            </div>
         </div>
+<!-- end .columns -->
+    </div>
+<!-- end .header-main -->
+</header> <!-- end .site-header -->
+</div>
 
 
     <!--PHOTOGRAPHY-->
-     <section class="parallax colored  clearfix" id="packages" style="background:white; padding:0; margin-top:0px;" data-anchor-offset="54" >
-            <div class="text-center">
-                <br>
-                <br>
-                <p style="font-size: 14px;">-  PHOTOGRAPHY PACKAGES  -</p>
-                <img src='img/icons/retro-photo-camera.png' alt='photography packages' class='crowd-descktop-logo' width='80' />
-                <br>
-            <div class="row no-gutter">
-                 <div class="col-lg-4 col-sm-6 text-center" >
-                        <br></br>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-top: 0px;">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 1.0em; font-style:normal; line-height:1.0em; letter-spacing: 0.15em;">- PHOTOGRAPHY PACKAGE 1 -</strong>
-                                    <br>
-                                    <strong class="ht-package-name" style="color:#238AB9; font-weight: normal; font-size:0.9em; align:center; line-height:2.0em;">with Alli</strong>
-                                </br>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; text-transform: uppercase; letter-spacing: 0em;">PRICE: $1300</strong>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <hr style="background:black; border:0; height:1px; margin:0 auto; margin-top:8px; margin-bottom: 5px;" />
-                                   <!-- <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; letter-spacing: 0em;">includes:</strong>-->
-                                </div>
-                            </div>
-                            <br>
-                            <p>A little of this, a little of that; great for couples on a budget.</p>
-                        <div class="package-line">
-                            <p>// 4 hours of photography coverage</p>
-                            <p>// USB with at least 250 post-processed images</p>
-                            <br>
-                            <p>This package typically includes:</p>
-                            <br>
-                            <p>-Ceremony coverage</p>
-                            <p>-Portraits:</p>
-                            <p>Family</p>
-                            <p>Wedding party</p>
-                            <p>Solo bride &amp; groom</p>
-                            <hr style="background:black; border:0; height:0.05em; margin:0 auto; margin-top:18px; margin-bottom: 15px;" />
-                            <p>Please contact us and we would be happy to send you the details!</p>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center" >
-                        <br></br>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-top: 0px;">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 1.0em; font-style:normal; line-height:1.0em; letter-spacing: 0.15em;">- PHOTOGRAPHY PACKAGE 2 -</strong>
-                                    <br>
-                                    <strong class="ht-package-name" style="color:#238AB9; font-weight: normal; font-size:0.9em; align:center; line-height:2.0em;">with Alli</strong>
-                                </br>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; text-transform: uppercase; letter-spacing: 0em;">PRICE: $1900</strong>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <hr style="background:black; border:0; height:1px; margin:0 auto; margin-top:8px; margin-bottom: 5px;" />
-                                   <!-- <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; letter-spacing: 0em;">includes:</strong>-->
-                                </div>
-                            </div>
-                            <br>
-                            <p>The mid-range; decent coverage at a reasonable price.</p>
-                            <br>
-                        <div class="package-line">
-                            <p>// 8 hours of photography coverage</p>
-                            <p>// USB with at least 350 post-processed images</p>
-                            <br>
-                            <p>This package typically includes:</p>
-                            <br>
-                            <p>-Some coverage of the bride &amp; bridal party getting ready</p>
-                            <p>-Ceremony coverage</p>
-                            <p>-Portraits:</p>
-                            <p>// Family</p>
-                            <p>// Wedding party</p>
-                            <p>// Solo bride &amp; groom</p>
-                            <p>-Some reception coverage</p>
-                            <hr style="background:black; border:0; height:0.05em; margin:0 auto; margin-top:18px; margin-bottom: 15px;" />
-                            <p>Please contact us and we would be happy to send you the details!</p>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center" >
-                        <br></br>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-top: 0px;">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 1.0em; font-style:normal; line-height:1.0em; letter-spacing: 0.15em;">- PHOTOGRAPHY PACKAGE 3 -</strong>
-                                    <br>
-                                    <strong class="ht-package-name" style="color:#238AB9; font-weight: normal; font-size:0.9em; align:center; line-height:2.0em;">with Alli &amp; Jared</strong>
-                                </br>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; text-transform: uppercase; letter-spacing: 0em;">PRICE: $2500</strong>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <hr style="background:black; border:0; height:1px; margin:0 auto; margin-top:8px; margin-bottom: 5px;" />
-                                   <!-- <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; letter-spacing: 0em;">includes:</strong>-->
-                                </div>
-                            </div>
-                            <br>
-                            <p>The Full Monty; our most popular package, as good as it gets.</p>
-                            <br>
-                        <div class="package-line">
-                            <p>// 12 hours of photography coverage</p>
-                            <p>// USB with at least 500 post-processed images</p>
-                            <br>
-                            <p>This package typically includes:</p>
-                            <br>
-                            <p>-Full coverage of the bride &amp; bridal party getting ready</p>
-                            <p>-Ceremony coverage</p>
-                            <p>-Portraits:</p>
-                            <p>// Family</p>
-                            <p>// Wedding party</p>
-                            <p>// Solo bride &amp; groom</p>
-                            <p>-Some reception coverage</p>
-                            <hr style="background:black; border:0; height:0.05em; margin:0 auto; margin-top:18px; margin-bottom: 15px;" />
-                            <p>Please contact us and we would be happy to send you the details!</p>
-                        </div>
-                </div>
-            </div>
+     <section class="parallax colored  clearfix" id="faq" style="background:white; padding:0; margin-top:0px;" data-anchor-offset="54" >
             <br>
-            <p>** Second shooters are an additional $200 ------- Each additional hour is $150 **</p>
-        </div> 
-    </section>
-
-
-    <!-- VIDEO & VIDEO/PHOTO -->
-    <!-- somewhere within thismax width of 100% is too wide -->
-   <br>
-   <br>
-   <section class="parallax colored  clearfix" id="packages" style="background:white; padding:0; margin-top:0px;" data-anchor-offset="54" >
             <div class="text-center">
                 <br>
-                <br>
-                <p style="font-size: 14px;">-  VIDEOGRAPHY AND COMBINED PACKAGES  -</p>
-                <br>
-                 <img src='img/icons/photo-old.png' alt='photography packages' class='crowd-descktop-logo' width='80' />
-                 <br>
-            <div class="row no-gutter">
-                 <!--<div class="col-lg-4 col-sm-6 text-center" style="width:49.99%;" >
-                        <br></br>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="c
-                                l-lg-8 col-lg-offset-2 text-center" style="padding-top: 0px;">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 1.0em; font-style:normal; line-height:1.0em; letter-spacing: 0.15em;">- PHOTOGRAPHY -</strong>
-                                    <br>
-                                    <strong class="ht-package-name" style="color:#238AB9; font-weight: normal; font-size:0.9em; align:center; line-height:2.0em;">with Alli</strong>
-                                </br>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; text-transform: uppercase; letter-spacing: 0em;">starting at $1100</strong>
-                                </div>
-                            </div>
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <hr style="background:black; border:0; height:1px; margin:0 auto; margin-top:8px; margin-bottom: 5px;" />
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; letter-spacing: 0em;">includes:</strong>
-                                    <p></p>
-                                </div>
-                            </div>
-                        <div class="package-line">
-                            <p>// Alli - over 10 years of experience in wedding photography</p>
-                            <p>// 8 hours of coverage</p>
-                            <p>// USB containing approx. 300-500 high-resolution post-processed images</p>
-                            <p>// Delivery within 4-6 weeks</p>
-                            <p>// No watermarks - images are print ready</p>
-                            <p>// Consultations</p>
-                            <p>// Local travel fee included</p>
-                            <p>// Personal usage rights to print or share image</p>
-                            <p>// Image backups for at least 1 year</p>
-                            <hr style="background:black; border:0; height:0.05em; margin:0 auto; margin-top:18px; margin-bottom: 15px;" />
-                            <p>Please contact us and we would be happy to send you the details!</p>
-                        </div>
-                </div>-->
-                <div class="col-lg-4 col-sm-6 text-center" style="margin-top: 0px;">
-                        <br></br>
-                        <!-- Package name-->
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center" >
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 1.0em; font-style:normal; line-height:1.0em; letter-spacing: 0.15em;">- VIDEOGRAPHY -</strong>
-                                    <br>
-                                    <strong class="ht-package-name" style="color:#238AB9; font-weight: normal; font-size:0.9em; align:center; line-height:2.0em;">with Alli &amp; Jared</strong>
-                                </br>
-                                </div>
-                            </div>
-                         <!-- Package base price-->
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size:0.9em; text-transform: uppercase; font-style:normal; line-height:1.0em; letter-spacing: 0em;">a la carte video package</strong>
-                                </div>
-                            </div>
-                        <!-- includes: -->
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <hr style="background:black; border:0; height:1px; margin:0 auto; margin-top:8px; margin-bottom: 5px;" />
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; letter-spacing: 0em;">pick and choose options include:</strong>
-                                    <p></p>
-                                </div>
-                            </div>
-                        <div class="package-line">
-                            <p>// Alli &amp; Jared - experienced cinematographers and video editors</p>
-                            <p>// Coffee consultation (FREE)</p>
-                            <p>// Local travel (FREE)</p>
-                            <p>// High-definition drone and DSLR photo &amp; video footage</p>
-                            <p>// 6-12 hours of cinematography coverage</p>
-                            <p>// Post processed highlights and/or documentary style HD videos</p>
-                            <p>// Delivery within 4-6 weeks</p>
-                            <p>// Video(s) uploaded to Vimeo with download ability</p>
-                            <p>// Personal usage rights to post or share videos</p>
-                            <p>// RAW video</p>
-                            <p>// Video &amp; footage backed up for at least 1 year (FREE)</p>
-                            <hr style="background:black; border:0; height:0.05em; margin:0 auto; margin-top:18px; margin-bottom: 15px;" />
-                            <p>Please contact us and we would be happy to send you the videography pricing details!</p>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center" style="margin-top: 0px;">
-                        <br></br>
-                        <!-- Package name-->
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 1.0em; font-style:normal; line-height:1.0em; letter-spacing: 0.15em;">- PHOTOGRAPHY &amp; VIDEOGRAPHY -</strong>
-                                    <br>
-                                    <strong class="ht-package-name" style="color:#238AB9; font-weight: normal; font-size:0.9em; align:center; line-height:2.0em;">with Alli &amp; Jared</strong>
-                                </br>
-                                </div>
-                            </div>
-                         <!-- Package base price-->
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; text-transform: uppercase; font-style:normal; line-height:1.0em; letter-spacing: 0em;">a la carte combined package</strong>
-                                </div>
-                            </div>
-                        <!-- includes: -->
-                            <div class="parallax colored  clearfix" style="background-color:#FFF; padding:0;">    
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                                        <hr style="background:black; border:0; height:1px; margin:0 auto; margin-top:8px; margin-bottom: 5px;" />
-                                    <strong class="ht-package-name" style="font-family: Futura Medium; font-weight:lighter; color:black; font-size: 0.9em; font-style:normal; line-height:1.0em; letter-spacing: 0em;">options include:</strong>
-                                    <p></p>
-                                </div>
-                            </div>
-                        <div class="package-line">
-                            <p>// Alli &amp; Jared - experienced photographers, cinematographers and editors</p>
-                            <p>// Coffee consultation, so that we can map out your unique story (FREE)</p>
-                            <p>// Local travel (FREE)</p>
-                            <p>// 4-12 hours of photography &amp; cinematography coverage</p>
-                            <p>// High-definition drone and DSLR photo &amp; video footage</p>
-                            <p>// Personal usage rights to print or share images and videos</p>
-                            <p>// Delivery within 4-6 weeks</p>
-                            <p>// Post processed highlights and/or documentary style high-definition videos</p>
-                            <p>// USB containing approx. 250-500 high-resolution post-processed images</p>
-                            <p>// Delivery within 4-6 weeks on USB or Hard Drive*</p>
-                            <p>// Video(s) uploaded to Vimeo with download ability</p>
-                            <p>// All RAW video</p>
-                            <p>// Video &amp; image backups for at least 1 year (FREE)</p>
-                            <hr style="background:black; border:0; height:0.05em; margin:0 auto; margin-top:18px; margin-bottom: 15px;" />
-                            <p>Please <a href="/contact.html">contact us</a> and we would be happy to send you the combined coverage pricing details!</p>
-                        </div>
-                    </div>
-            <br></br>
+                <p style="font-size: 2em;">-  FREQUENTLY ASKED QUESTIONS  -</p>
             </div>
-        </div> 
+
+                <!-- Question 1 -->
+            <div style="width: 70%; margin: 0 auto 0;">
+                <div class="panel panel-transparent" style="border-bottom:1px solid rgba(0,0,0,.05); box-shadow: 0 0px 0px rgba(0,0,0,.05);">
+                    <div class="panel-heading" role="button" data-toggle="collapse" data-parent="#orderAccordion" href="#collapseQ1" aria-expanded="true" aria-controls="collapseQ1" role="tab" id="headingQ1" style="border:none;">
+                        <br>
+                        <br>
+                        <p style="font-size: 1.4em; margin-bottom: 0px; margin-top: 0px;">This is the first question.</p>
+                    </div>
+                    <div id="collapseQ1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPortalDesign">
+                        <div class="Q1-body website-design">
+                            <p style="font-size: 1.1em; padding-left: 3%;">And this is the answer.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+                <!-- Question 2 -->
+            <div style="width: 70%; margin: 0 auto 0; margin-top:-20px;">
+                <div class="panel panel-transparent" style="border-top:1px solid rgba(0,0,0,.05); border-bottom:1px solid rgba(0,0,0,.05); box-shadow: 0 0px 0px rgba(0,0,0,.05);">
+                    <div class="panel-heading" role="button" data-toggle="collapse" data-parent="#orderAccordion" href="#collapseQ2" aria-expanded="true" aria-controls="collapseQ2" role="tab" id="headingQ2" style="border:none;">
+                        <br>
+                        <br>
+                        <p style="font-size: 1.4em; margin-bottom: 0px; margin-top: -30px;">This is the second question.</p>
+                    </div>
+                    <div id="collapseQ2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPortalDesign">
+                        <div class="Q2-body website-design">
+                            <p style="font-size: 1.1em; padding-left: 3%; position:relative;">And this is the answer.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div style="width: 70%; margin: 0 auto 0; margin-top:-20px;">
+                <div class="panel panel-transparent" style="border-top:1px solid rgba(0,0,0,.05); border-bottom:1px solid rgba(0,0,0,.05); box-shadow: 0 0px 0px rgba(0,0,0,.05);">
+                    <div class="panel-heading" role="button" data-toggle="collapse" data-parent="#orderAccordion" href="#collapseQ3" aria-expanded="true" aria-controls="collapseQ3" role="tab" id="headingQ3" style="border:none;">
+                        <br>
+                        <br>
+                        <p style="font-size: 1.4em; margin-bottom: 0px; margin-top: -30px;">This is the third question.</p>
+                    </div>
+                    <div id="collapseQ3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPortalDesign">
+                        <div class="Q3-body website-design">
+                            <p style="font-size: 1.1em; padding-left: 3%; position:relative;">And this is the answer.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div style="width: 70%; margin: 0 auto 0; margin-top:-20px;">
+                <div class="panel panel-transparent" style="border-top:1px solid rgba(0,0,0,.05); border-bottom:1px solid rgba(0,0,0,.05); box-shadow: 0 0px 0px rgba(0,0,0,.05);">
+                    <div class="panel-heading" role="button" data-toggle="collapse" data-parent="#orderAccordion" href="#collapseQ4" aria-expanded="true" aria-controls="collapseQ4" role="tab" id="headingQ4" style="border:none;">
+                        <br>
+                        <br>
+                        <p style="font-size: 1.4em; margin-bottom: 0px; margin-top: -30px;">This is the fourth question.</p>
+                    </div>
+                    <div id="collapseQ4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPortalDesign">
+                        <div class="Q4-body website-design">
+                            <p style="font-size: 1.1em; padding-left: 3%; position:relative;">And this is the answer.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div style="width: 70%; margin: 0 auto 0; margin-top:-20px;">
+                <div class="panel panel-transparent" style="border-top:1px solid rgba(0,0,0,.05); border-bottom:1px solid rgba(0,0,0,.05); box-shadow: 0 0px 0px rgba(0,0,0,.05);">
+                    <div class="panel-heading" role="button" data-toggle="collapse" data-parent="#orderAccordion" href="#collapseQ5" aria-expanded="true" aria-controls="collapseQ5" role="tab" id="headingQ5" style="border:none;">
+                        <br>
+                        <br>
+                        <p style="font-size: 1.4em; margin-bottom: 0px; margin-top: -30px;">This is the fifth question.</p>
+                    </div>
+                    <div id="collapseQ5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPortalDesign">
+                        <div class="Q5-body website-design">
+                            <p style="font-size: 1.1em; padding-left: 3%; position:relative;">And this is the answer.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div style="width: 70%; margin: 0 auto 0; margin-top:-20px;">
+                <div class="panel panel-transparent" style="border-top:1px solid rgba(0,0,0,.05); border-bottom:1px solid rgba(0,0,0,.05); box-shadow: 0 0px 0px rgba(0,0,0,.05);">
+                    <div class="panel-heading" role="button" data-toggle="collapse" data-parent="#orderAccordion" href="#collapseQ6" aria-expanded="true" aria-controls="collapseQ6" role="tab" id="headingQ6" style="border:none;">
+                        <br>
+                        <br>
+                        <p style="font-size: 1.4em; margin-bottom: 0px; margin-top: -30px;">This is the sixth question.</p>
+                    </div>
+                    <div id="collapseQ6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPortalDesign">
+                        <div class="Q6-body website-design">
+                            <p style="font-size: 1.1em; padding-left: 3%; position:relative;">And this is the answer.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
     </section>
+                
+  
+
 
      <!-- PACKAGES, CONTACT, AND FOLLOW US SECTION -->
     <footer id="contact" class="site-footer" role="contentinfo">
         <div id="supplementary" class="footer-top">
             <div class="row">
                 <div class="column">
-                    <div class="footer-top-inner">
+                    <div class="footer-top-inner" style="border-top:0px;">
                         <div id="footer-sidebar" class="footer-sidebar widget-area  widget-bordered " role="complementary">
                             <div class="row">
                                 <div class="medium-12 large-4 columns widget-container">
@@ -854,13 +682,15 @@ opacity:0.9;
                                                 <div class="jar-image-inner  fuc_13768  jar-no-image " style="">
                                                     <div class="jar-image-text">
                                                         <div class="inner-title">
+                                                            <a href="/packages.html" class="hover-menu">
                                                             <h5 class="widget-title" style=" color: #000000; letter-spacing: 0.1em;">
                                                             INVESTMENT                         
                                                             </h5>
+                                                            </a>
                                                              <hr style="margin: 0 auto; font-size:10px; border: solid grey; border-width: 2px 0 0;"> 
                                                             <br>  
                                                             <p>
-                                                                <a href="#packages" style=" color: #000000; font-family: Futura Medium; font-weight:lighter; font-size: 0.9em; text-transform: uppercase; font-style:normal; line-height:1.0em; letter-spacing: 0em; " class="button-title-link">
+                                                                <a href="/packages.html" style=" color: #000000; font-family: Futura Medium; font-weight:lighter; font-size: 0.9em; text-transform: uppercase; font-style:normal; line-height:1.0em; letter-spacing: 0em; " class="button-title-link">
                                                                 Packages &amp; Details >                        
                                                                 </a>
                                                             </p>
@@ -878,7 +708,7 @@ opacity:0.9;
                                     <aside id="widget_cosmo_socialicons-1" class="widget" style="padding-top:50px;">
                                         <div class="jar-widget widget_socialicons">
                                             <div class="fuc_19166 " style="">
-                                                <a href="mailto:sage.and.sea.co@gmail.com" class="hover-menu">
+                                                <a href="/contact.html" class="hover-menu">
                                                     <h5 class="widget-title" style=" color: #000000; letter-spacing: 0.1em;">CONTACT US
                                                 </h5>
                                                 </a>
@@ -886,7 +716,7 @@ opacity:0.9;
                                                 <br>  
                                                 <div class="social-links">
                                                     <div class="social">
-                                                        <a href="mailto:sage.and.sea.co@gmail.com" class="hover-menu">
+                                                        <a href="/contact.html" class="hover-menu">
                                                             <i class="icon-email"></i>
                                                         </a>
                                                     </div>
@@ -915,6 +745,9 @@ opacity:0.9;
                                                         </a>
                                                         <a href="https://vimeo.com/141131265" class="vimeo hover-menu">
                                                             <i class="icon-vimeo"></i>
+                                                        </a>
+                                                        <a href="https://www.pinterest.com/sageandseaco/" class="vimeo hover-menu">
+                                                            <i class="icon-pinterest"></i>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -980,16 +813,6 @@ var ajaxurl = "admin-ajax.php";
 <script type='text/javascript' src='js/mediaelement-and-player.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var jarScaleSliderWidth = "1300";
-var jarScaleSliderHeight = "770";
-var jarScaleSliderWidthVideo = "1070";
-var jarScaleSliderHeightVideo = "570";
-var slideshow_autoplay = "1";
-var main_slideshow_autoplay_dalay = "3000";
-var main_slideshow_show_bullets = "no";
-var main_slideshow_show_arrow = "no";
-var ajaxurl = "admin-ajax.php";
-var jar_js_data = {"header_1_menu_spacing_nonce":"a80442bdda","site_width":"1130","header_logo_style":"header_style2","header_1_menu_spacing":"126.5px","header_4_menu_left_spacing":"0px","header_4_menu_right_spacing":"0px","header_4_menu_spacing_nonce":"6f79f71ff7","single_gallery_autoplay":"0","single_gallery_autoplay_dalay":"3000","main_slideshow_hover_stop":"yes","gallery_slideshow_hover_stop":"yes","visible_nearby_image_width":"400","visible_nearby_image_height":"500","full_width_sl_image_width":"1920","full_width_sl_image_height":"720","full_screen_sl_image_width":"1920","full_screen_sl_image_height":"1200","gallery_visible_nearby_gutter":"8","enable_paralax":"yes","video_iframe_width":"780","video_iframe_height":"460"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='js/jar-min.js'></script>
