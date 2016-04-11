@@ -6773,7 +6773,7 @@ button {
 /* line 1469, style.scss */
 .post-article .post-header {
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 10px;
 }
 /* line 1474, style.scss */
 .post-article .post-title {
@@ -10128,7 +10128,7 @@ a.mosaic-content:hover img {
 
   /* line 5218, style.scss */
   .crowd-double-menu .site-header {
-    height: 115px;
+    height: 90px;
   }
   /* line 5223, style.scss */
   .crowd-double-menu .site-header .nav-menu > li {
