@@ -12,8 +12,9 @@
         //use portfolio-box for pics
             //switch back to portfolio-box to have it be fancybox popup
     $(document).ready(function() {
-        $('.portfolio-box2').fancybox({
+        $('a.photoalbum').fancybox({
         padding: 0,
+        'showNavArrows': true,
         helpers: {
         overlay: {
           locked: false
