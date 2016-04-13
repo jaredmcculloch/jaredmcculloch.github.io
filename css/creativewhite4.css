@@ -498,7 +498,7 @@ header .header-content .header-content-inner p {
 }
 
 .project-name {
-    font-family: 'Bauer Bodoni Std Italic';
+    font-family: 'Futura Medium';
 }
 
 .project-category {
@@ -590,7 +590,10 @@ header .header-content .header-content-inner p {
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-    font-size: 18px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .video-portfolio-box:hover .portfolio-box-caption,
@@ -606,7 +609,10 @@ header .header-content .header-content-inner p {
 
     .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name
     .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-        font-size: 18px;
+        font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
     }
 }
 
@@ -694,7 +700,10 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-    font-size: 18px;
+   font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .portfolio-box:hover .portfolio-box-caption,
@@ -710,7 +719,10 @@ header .header-content .header-content-inner p {
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
     .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-        font-size: 18px;
+        font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
     }
 }
 
