@@ -584,14 +584,15 @@ header .header-content .header-content-inner p {
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
+    font-size: 12px;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
 .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
 .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -609,8 +610,8 @@ header .header-content .header-content-inner p {
 
     .video-portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name
     .video-portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-        font-size: 15px;
-    letter-spacing: 2px;
+        font-size: 12px;
+    letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
     }
@@ -636,10 +637,10 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
-    bottom: 4%;
-    left: 3%;
-    width: 94%;
-    height: 92%;
+    bottom: 2%;
+    left: 1.5%;
+    width: 97%;
+    height: 96%;
     padding: 0px;
     text-align: center;
     color: #fff;
@@ -653,10 +654,10 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption-full {
     display: block;
     position: absolute;
-   bottom: 4%;
-    left: 3%;
-    width: 94%;
-    height: 92%;
+   bottom: 2%;
+    left: 1.5%;
+    width: 97%;
+    height: 96%;
     padding: 0px;
     text-align: center;
     color: #fff;
@@ -693,15 +694,15 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-category {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
 .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-   font-size: 15px;
-    letter-spacing: 2px;
+   font-size: 12px;
+    letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -719,8 +720,8 @@ header .header-content .header-content-inner p {
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
     .portfolio-box .portfolio-box-caption-full .portfolio-box-caption-content .project-name {
-        font-size: 15px;
-    letter-spacing: 2px;
+        font-size: 12px;
+    letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
     }

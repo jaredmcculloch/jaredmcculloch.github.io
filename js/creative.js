@@ -14,7 +14,6 @@
     $(document).ready(function() {
         $('a.photoalbum').fancybox({
         padding: 0,
-        'showNavArrows': true,
         helpers: {
         overlay: {
           locked: false
