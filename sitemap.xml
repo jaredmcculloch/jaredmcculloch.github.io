@@ -1,49 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://sageandseaco.com/</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/index.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/packages.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/ronstephanie.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/haydenalanna.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/justinjasmine.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/nicolemarshall.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://sageandseaco.com/sarahscott.html</loc>
-  <lastmod>2016-02-23T00:20:06+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://www.sageandseaco.com/</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>1.00</priority></url>
+<url><loc>http://sageandseaco.com</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>1.00</priority></url>
+<url><loc>http://sageandseaco.com/index.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/portfolio.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/packages.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/destination.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/contact.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/about.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/amandacam.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/mandichris.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/emilynate.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/amandadevin.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/kathleenjorden.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/julianicky.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/marybrad.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/melisaandy.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://sageandseaco.com/kelliekris.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/chrisfrenzie.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/katiedave.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/ronstephanie.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/haydenalanna.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/justinjasmine.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/sarahscott.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://sageandseaco.com/nicolemarshall.html</loc><lastmod>2016-12-09T16:03:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<!-- Generated by www.web-site-map.com -->
 </urlset>
