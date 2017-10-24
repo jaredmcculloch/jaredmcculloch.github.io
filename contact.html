@@ -508,7 +508,7 @@ nav#primary-navigation ul .children {
 
 
      <div class="sticky sticky-holder fixed" >
-            <header data-topbar id="masthead" class="site-header" role="banner" >
+            <header data-topbar id="masthead" class="site-header" role="banner">
                 <div class="header-main" >
                     <div class="row">
                         <div class="small-12 columns">
@@ -616,13 +616,14 @@ nav#primary-navigation ul .children {
                            </div>
                            </div>
 
-                           <header class="post-header  page-header ">
+                           <header class="post-header  page-header " style="border: 0px;">
                               <div class="post-meta">
                               </div>
     
-                              <h2 class="post-title entry-title">
-                              Contact 
-                              </h2 >
+                              <div class="text-center" style="background:white; padding-top:30px; padding-bottom:20px; font-size: 50px" >
+                <br>
+                <p style="font-family: 'Bauer Bodoni Std Italic', Georgia, serif; text-rendering: optimizeLeg; color: inherit; font-size: 0.8em; color: black; letter-spacing: 0.2em;">GET IN TOUCH</p>
+            </div>
 
                            </header> <!-- end .post-header -->
                                                                 
@@ -637,19 +638,35 @@ nav#primary-navigation ul .children {
                                             </strong>
                                             <br>
                                             <br>
-                                          <p>We would love to hear about your wedding day!</p>
+                                          <p>We would love to hear about what you have planned...</p>
                                        </div>
                                 
                                        <form id="contactform" method="POST">
-                                        <input type="text" name="name" placeholder="Your name" required>
-                                        <input type="email" name="email" placeholder="Your email" required>
+                                        <input type="text" name="Name" placeholder="Your name" required>
+                                        <input type="email" name="Email" placeholder="Your email" required>
                                         <input type="hidden" name="_subject" value="New Message to Sage &amp; Sea Co." required />
-                                        <textarea name="weddingdate" placeholder="Wedding Date" style="height:15px;" required></textarea>
-                                         <textarea name="venue" placeholder="Venue" style="height:15px;" required></textarea>
-                                        <textarea name="message" placeholder="Message" style="height:290px;" required></textarea>
+                                        <!--<p style="font-size: 0.8em; margin-bottom: 5px; align: left">I would like to learn more about:</p>
+                                         <select name="type" required>
+                                            <option value="">Photo</option>
+                                            <option value="Video">Film</option>
+                                            <option value="Combined">Combined (Photo + Film)</option>
+                                            <option value="Other">Other</option>
+                                          </select> -->
+                                          <p style="font-size: 0.8em; margin-bottom: 5px; align: left">Wedding / Event Date:</p>
+                                          <input type="date" name="Wedding Date" min='$todaymin' style="text-align: center;" required>
+                                        <!--<textarea name="weddingdate" placeholder="Wedding / Event Date" style="height:15px;" required></textarea>-->
+                                         <textarea name="Venue" placeholder="Venue (if applicable)" style="height:15px;" required></textarea>
+                                         <p style="font-size: 0.8em; margin-bottom: 5px; align: left">How can we tell your story?</p>
+                                         <select name="Coverage Type" required>
+                                            <option value="Photo">Photo</option>
+                                            <option value="Video">Film</option>
+                                            <option value="Combined">Combined (Photo + Film)</option>
+                                            <option value="Other">Other</option>
+                                          </select>                            
+                                        <textarea name="Message" placeholder="Message" style="height:160px;" required></textarea>
                                         <input type="hidden" name="_next" value="/thanks.html" />
                                         <input type="text" name="_gotcha" style="display:none" />
-                                        <input type="submit" value="Send">
+                                        <input type="submit" value="Send" style="background-color: #BDBDBD">
                                     </form>
                                 <script>
                                     var contactform =  document.getElementById('contactform');
@@ -750,7 +767,7 @@ nav#primary-navigation ul .children {
                                                     </div>
                                                 </div>
                                                 <br>
-                                                <a href="/contact.html" class="ht-package-name" style="color:#238AB9; font-weight: lighter; font-family:Futura Medium; font-size:0.9em; align:center; line-height:2.0em; text-decoration: none; text-transform: uppercase;">
+                                                <a href="/contact.html" class="ht-package-name" style="color:#000000; font-weight: lighter; font-family:Futura Medium; font-size:0.9em; align:center; line-height:2.0em; text-decoration: none; text-transform: uppercase;">
                                                     Now booking for 2018 &amp; 2019.
                                                 <br> Contact us now to reserve your day.
                                                 </a>
