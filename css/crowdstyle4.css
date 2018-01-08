@@ -391,7 +391,7 @@ select {
 @media only screen and (min-device-width: 1025px) {
     .aparallax {
         background-attachment: fixed;
-        height:700px;
+        height:650px;
         
     }
 }
@@ -406,7 +406,7 @@ select {
 @media only screen and (min-width: 1025px) {
   .aparallax {
         background-attachment: fixed;
-        height:700px;
+        height:650px;
     }
 }
 
