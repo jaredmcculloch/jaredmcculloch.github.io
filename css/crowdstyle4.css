@@ -438,6 +438,31 @@ select {
     }
 }
 
+/*Timeline inputs on planning stages page under 960px, make single column */
+@media only screen and (max-device-width: 960px) {
+    .inputps {
+        width: 99%
+    }
+}
+
+@media only screen and (min-device-width: 960px) {
+    .inputps {
+        width: 50%
+    }
+}
+
+@media only screen and (max-width: 960px) {
+  .inputps {
+        width: 99%
+    }
+}
+
+@media only screen and (min-width: 960px) {
+  .inputps {
+        width: 50%
+    }
+}
+
 /*-->*/
 
 @media only screen and (min-width: 40.063em) {
