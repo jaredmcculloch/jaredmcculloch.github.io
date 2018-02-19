@@ -1,0 +1,14 @@
+User-Agent: *
+Disallow: /packages-photo.html
+Disallow: /packages-film.html
+Disallow: /packages-combined.html
+Disallow: /planningstages-photo.html
+Disallow: /planningstages-film.html
+Disallow: /planningstages-combined.html
+Disallow: /pricing.html
+Disallow: /thanksforplanning.html
+Disallow: /welcome.html
+Disallow: /guide.html
+Disallow: /photopackages.html
+
+Sitemap: http://www.sageandseaco.com/sitemap.xml
