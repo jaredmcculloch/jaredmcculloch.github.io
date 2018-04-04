@@ -11,4 +11,4 @@ Disallow: /welcome.html
 Disallow: /guide.html
 Disallow: /photopackages.html
 
-Sitemap: http://www.sageandseaco.com/sitemap.xml
+Sitemap: https://www.sageandseaco.com/sitemap.xml
